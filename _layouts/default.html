@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+        {%- include head.html -%}  
+    <body>
+    <main class="page-content" aria-label="Content"> 
+        <div class="wrapper">
+            <input type="checkbox" id="toggle"/>
+            <label for="toggle"></label>
+            <script src="{{ site.url }}/assets/mode-switcher.js"></script>
+            {{ content }}
+        </div>
+    <button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
+    <script src="{{ site.url }}/assets/main.js"></script>
+    </main>
+        {%- include footer.html -%}     
+    </body>
+</html>

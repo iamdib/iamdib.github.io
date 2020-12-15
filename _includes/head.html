@@ -1,0 +1,143 @@
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  {%- seo title=false -%}
+<style>
+*,*:after, *:before {
+	box-sizing: border-box;
+}
+
+.light {
+		background-color: #fdfdfd;
+}
+
+div[itemprop="articleBody"] p {
+	margin-bottom: 10px;
+	display: inline-block;
+}
+p.about-description {
+	margin-bottom: 15px;
+	display: inline-block;
+}
+
+.dark {
+    background-color: rgb(36, 41, 46);
+}
+
+.dark p {
+	color: #eaeaea;
+}
+
+p.about-description {
+    margin-top: -0.6rem;
+    font-size: 18px;
+    color: #515151;
+}
+
+li.p-name {
+	color: black;
+}
+
+.dark p.about-description {
+	margin-top: -0.6rem;
+	font-size: 18px;
+	color: #7d9722;
+}
+
+.dark li.p-name {
+	color: #eaeaea;
+}
+
+.dark summary {
+	color: #05c820;
+}
+ 
+.dark h1, h2, h3, h4, h5, h6 {
+    color:  #009e91;
+} 
+
+.dark a.black-link {
+	color: #eaeaea;
+}
+
+ul {
+	color: black;
+}
+
+.dark ul {
+	color: #eaeaea;
+}
+
+.dark pre {
+    background-color: black;
+	color:  #ffffff;
+}
+
+.dark code {
+    background-color: black;
+}
+
+.dark a {
+	color: #2a7ae2;
+}
+
+label[for=toggle] {
+	position: relative;
+	display: inline-block;
+	width: 65px;
+	height: 30px;
+	border-radius: 100px;
+	background-color: #111;
+	overflow: hidden;
+	cursor: pointer;
+	margin-bottom: 15px;
+}
+
+label[for=toggle]:before, label[for=toggle]:after {
+	display: flex;
+	position: absolute;
+	content: "";
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	top: 5px;
+	left: 7px;
+	transition: 0.5s ease;
+}
+label[for=toggle]:before {
+	background-color: #ffa41b;
+}
+label[for=toggle]:after {
+	background-color: #111;
+	left: -59px;
+	transform: scale(0.00001);
+}
+input[type="checkbox"] {
+	display: none;
+}
+input[type="checkbox"]:checked + label[for=toggle]:before {
+	background-color: #fdfdfd;
+	transform: translateX(31px);
+}
+input[type="checkbox"]:checked + label[for=toggle]:after {
+	transform: translateX(89px) scale(1);
+}
+
+</style>
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-xVVam1KS4+Qt2OrFa+VdRUoXygyKIuNWUUUBZYv+n27STsJ7oDOHJgfF0bNKLMJF" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" href="{{ site.url }}/assets/css/style.css">
+  <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="/{{ site.favicon }}?" />
+  <link rel="stylesheet" href="{{ site.url }}/assets/css/agate.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
+  {%- feed_meta -%}
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+  {%- include google-analytics.html -%}
+  {%- endif -%}
+</head>
