@@ -3,3 +3,9 @@ layout: null
 ---
 User-agent: *
 Disallow: /
+
+User-agent: CuteStat
+Disallow: /
+
+User-agent: ClearWebStats
+Disallow: /
