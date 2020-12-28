@@ -2,360 +2,394 @@
     "en-US": {
         "mouseover": {
             "waifu": {
-                "1": "What are you doing, put your hand away~~",
-                "2": "Mouse...the mouse is misplaced!",
-                "3": "What are you doing!!? Stop!",
-                "4": "Meow meow?",
-                "5": "AAAAAA go awayy!! (ノ≧∇≦)ノ",
-                "6": "Gross! Someone, help!!!",
-                "7": "I'll bite you~",
-                "8": "Im going to be angry, grr~",
-                "9": "Don't touch anything!!",
-                "10": "Really~~?",
-                "11": "Pervert"
+                "1": "<p>What are you doing, put your hand away~~</p>",
+                "2": "<p>Mouse...the mouse is misplaced!</p>",
+                "3": "<p>What are you doing!!? Stop!</p>",
+                "4": "<p>Meow meow?</p>",
+                "5": "<p>AAAAAA go awayy!! (ノ≧∇≦)ノ</p>",
+                "6": "<p>Gross! Someone, help!!!</p>",
+                "7": "<p>I'll bite you~</p>",
+                "8": "<p>Im going to be angry, grr~</p>",
+                "9": "<p>Don't touch anything!!</p>",
+                "10": "<p>Really~~?</p>",
+                "11": "<p>Pervert</p>"
             },
+            
             "waifu_tool_fa_comment": {
-                "1": "Guess what I'm going to say?",
-                "2": "How are you today? Please, be careful.",
-                "3": "Those who make great things in ancient times are not only talented in the world, but also have the will to persevere.",
-                "4": "Master, how can I serve you?",
-                "5": "Make time for civilization, for civilization won't make time.",
-                "6": "You have been studying for several hours! Master, please take a break.",
-                "7": "Your loved one is thinking about you, give time to your happiness.",
-                "8": "Do not give up, you can do it! I believe in you!",
-                "9": "Many people would rather deny the fact, than face the truth.",
-                "10": "The mountains are filled with soil, and the sea is filled with water.",
-                "11": "Love is like holding a torch against the wind, there is always the risk of burning your hands.",
-                "12": "Innocence and pure light, the sun breaks the darkness, it can contain disasters, wind and fire, and illuminate the world.",
-                "13": "Maybe we have not grown up, but the world has become smaller."
+                "1": "<p>Guess what I'm going to say?</p>",
+                "2": "<p>How are you today? Please, be careful.</p>",
+                "3": "<p>Those who make great things in ancient times are not only talented in the world, but also have the will to persevere.</p>",
+                "4": "<p>Master, how can I serve you?</p>",
+                "5": "<p>Make time for civilization, for civilization won't make time.</p>",
+                "6": "<p>To know your Enemy, you must become your Enemy.</p>",
+                "7": "<p>Your loved one is thinking about you, give time to your happiness.</p>",
+                "8": "<p>Do not give up, you can do it! I believe in you!</p>",
+                "9": "<p>Many people would rather deny the fact, than face the truth.</p>",
+                "10": "<p>The mountains are filled with soil, and the sea is filled with water.</p>",
+                "11": "<p>Love is like holding a torch against the wind, there is always the risk of burning your hands.</p>",
+                "12": "<p>Innocence and pure light, the sun breaks the darkness, it can contain disasters, wind, fire, and illuminate the world.</p>",
+                "13": "<p>Maybe we have not grown up, but the world has become smaller.</p>"
 
 
             },
             "waifu_tool_fa_paper_plane": {
-                "1": "Hey! Let's play paper plane war!",
-                "2": "This button says 'DO NOT CLICK'",
-                "3": "Why? Do you want to play a game with me",
-                "4": "I heard you can play like this and that"
+                "1": "<p>Hey! Let's play paper plane war!</p>",
+                "2": "<p>You can play but don't shoot me!</p>",
+                "3": "<p>Why? Do you want to play a game with me</p>",
+                "4": "<p>I heard you can play like this and that</p>"
             },
             "waifu_tool_fa_user_circle": {
-                "1": "Are you not in love with me anymore, ohhh~",
-                "2": "Would you like to see my sisters?",
-                "3": "Want to see my sister?",
-                "4": "Do you want to switch the kanban girl?"
+                "1": "<p>Are you not in love with me anymore, ohhh~</p>",
+                "2": "<p>Would you like to see my sisters?</p>",
+                "3": "<p>Want to see my sister?</p>",
+                "4": "<p>Do you want to switch the kanban girl?</p>"
             },
             "waifu_tool_fa_street_view": {
-                "1": "Do you like changing to PLAY?",
-                "2": "What are you going to play this time?",
-                "3": "Tadaaa!",
-                "4": "Let's see what happens next!"
+                "1": "<p>Do you like changing to PLAY?</p>",
+                "2": "<p>What are you going to play this time?</p>",
+                "3": "<p>Tadaaa!</p>",
+                "4": "<p>Let's see what happens next!</p>"
             },
             "waifu_tool_fa_camera_retro": {
-                "1": "You wanna take pictures of me? One, two, three~eggplant~",
-                "2": "Hey! let's take a group photo!",
-                "3": "Keep smiling~"
+                "1": "<p>You wanna take pictures of me? One, two, three~eggplant~</p>",
+                "2": "<p>Hey! let's take a group photo!</p>",
+                "3": "<p>Keep smiling~</p>"
             },
             "waifu_tool_fa_info_circle": {
-                "1": "Want to know more about me? ",
-                "2": "You are not a stalker, right ~~? ",
-                "3": "What do you want to know more about me? "
+                "1": "<p>Want to know more about me? </p>",
+                "2": "<p>You are not a stalker, right ~~? </p>",
+                "3": "<p>What do you want to know more about me? </p>"
             },
             "waifu_tool_fa_times": {
-                "1": "Is it time to say goodbye?",
-                "2": "Woo QAQ there will be an end...",
-                "3": "Don't abandon me...",
-                "4": "But..can we meet again~~?",
-                "5": "Hmph, you will regret it!!!"
+                "1": "<p>Is it time to say goodbye?</p>",
+                "2": "<p>Woo QAQ there will be an end...</p>",
+                "3": "<p>Don't abandon me...</p>",
+                "4": "<p>But..can we meet again~~?</p>",
+                "5": "<p>Hmph, you will regret it!!!</p>"
             },
             "menu_item_home_a": {
-                "1": "Click to go to the home page. If you want to go back to the previous page, you can use the browser's back function.",
-                "2": "Click it to return to the homepage!",
-                "3": "Go back to the homepage and take a look."
+                "1": "<p>Click to go to the home page. If you want to go back to the previous page, you can use the browser's back function.</p>",
+                "2": "<p>Click it to return to the homepage!</p>",
+                "3": "<p>Go back to the homepage and take a look.</p>"
             },
             "menu_item_about_a": {
-                "1": "Do you want to know who my master is?",
-                "2": "Here are some secrets about my host. Would you like to read it?",
-                "3": "Found the location of the owner!"
+                "1": "<p>Do you want to know who my master is?</p>",
+                "2": "<p>Here are some secrets about my host. Would you like to read it?</p>",
+                "3": "<p>Found the location of the owner!</p>"
             },
             "menu_item_tags_a": {
-                "1": "Click to see the tags of the article!",
-                "2": "Click to see all tags."
+                "1": "<p>Click to see the tags of the article!</p>",
+                "2": "<p>Click to see all tags.</p>"
             },
             "menu_item_categories_a": {
-                "1": "The articles are all classified~",
-                "2": "Click to view the article category."
+                "1": "<p>The articles are all classified~</p>",
+                "2": "<p>Click to view the article category.</p>"
             },
             "menu_item_archieves_a": {
-                "1": "Is it troublesome to turn pages? Let's take a look at the article archive.",
-                "2": "The article catalog is organized here!"
+                "1": "<p>Is it troublesome to turn pages? Let's take a look at the article archive.</p>",
+                "2": "<p>The article catalog is organized here!</p>"
             },
             "menu_item_friends_a": {
-                "1": "This is my friends ヾ(◍°∇°◍)",
-                "2": "Would you like to visit my friend's house?",
-                "3": "Want to visit my friends?"
+                "1": "<p>This is my friends ヾ(◍°∇°◍)</p>",
+                "2": "<p>Would you like to visit my friend's house?</p>",
+                "3": "<p>Want to visit my friends?</p>"
             },
             "menu_item_search_a": {
-                "1": "Can't find what you want to see? Search for it!",
-                "2": "What are you looking for, do you need help?"
+                "1": "<p>Can't find what you want to see? Search for it!</p>",
+                "2": "<p>What are you looking for, do you need help?</p>"
             },
             "menu_item_a": {
-                "1": "Look at what's here?"
+                "1": "<p>Look at what's here?</p>"
             },
             "site_author": {
-                "1": "Does my owner look good?",
-                "2": "This is my owner (*´∇｀*)"
+                "1": "<p>Does my master look good?</p>",
+                "2": "<p>This is my master (*´∇｀*)</p>"
             },
             "site_state": {
-                "1": "This is the statistical information of the article~",
-                "2": "Would you like to click in and have a look?"
+                "1": "This is the statistical information of the article~</p>",
+                "2": "Would you like to click in and have a look?</p>"
             },
             "feed_link_a": {
-                "1": "You can use RSS to subscribe here!",
-                "2": "Using the feed subscriber, you can quickly know if the blog has been updated."
+                "1": "<p>You can use RSS to subscribe here!</p>",
+                "2": "<p>Using the feed subscriber, you can quickly know if the blog has been updated.</p>"
             },
             "cc_opacity_post_copyright_author": {
-                "1": "Remember to reprint the standard.",
-                "2": "All articles adopt CC BY-NC-SA 4.0 license agreement~",
-                "3": "Before reprinting, please pay attention to the copyright agreement of the article."
+                "1": "<p>Remember to reprint the standard.</p>",
+                "2": "<p>All articles adopt CC BY-NC-SA 4.0 license agreement~</p>",
+                "3": "<p>Before reprinting, please pay attention to the copyright agreement of the article.</p>"
             },
             "links_of_author": {
-                "1": "This is my owner's address.",
-                "2": "Here is my owner's contact information!"
+                "1": "<p>This is my owner's address.</p>",
+                "2": "<p>Here is my owner's contact information!</p>"
             },
             "qrcode": {
-                "1": "It's very convenient to continue reading by scanning the phone~",
-                "2": "Sweep, open the door to a new world!"
+                "1": "<p>It's very convenient to continue reading by scanning the phone~</p>",
+                "2": "<p>Sweep, open the door to a new world!"
             },
             "fancybox_img_img_medium_zoom_image": {
-                "1": "Click on the picture to enlarge it!"
+                "1": "<p>Click on the picture to enlarge it!</p>"
             },
             "copy_btn": {
-                "1": "The code can be copied directly by clicking on it."
+                "1": "<p>The code can be copied directly by clicking on it.</p>"
             },
             "highlight_table_container_gist": {
-                "1": "GitHub! I'm a novice!",
-                "2": "PHP is the best language!"
+                "1": "<p>GitHub! I'm a novice!</p>",
+                "2": "<p>PHP is the best language!</p>"
+            },
+            "pre": {
+                "1": "<p>Feel free to see the commands, you are able to copy paste it too!</p>",
+                "2": "<p>You can collapse it back if it's too long.</p>"
             },
             "a_href_mail_to": {
-                "1": "I promise I will reply to your email in time!",
-                "2": "Click to send email~"
+                "1": "<p>I promise I will reply to your email in time!</p>",
+                "2": "<p>Click to send email~</p>"
             },
             "a_href_tags": {
-                "1": "Want to see the <span>{text}</span> tag?",
-                "2": "Click it to view all articles under this label!"
+                "1": "<p>Want to see the <span>{text}</span> tag?</p>",
+                "2": "<p>Click it to view all articles under this label!</p>"
             },
             "a_href_categories": {
-                "1": "Want to see the <span>{text}</span> category?",
-                "2": "Click it to view all articles in this category!"
+                "1": "<p>Want to see the <span>{text}</span> category?</p>",
+                "2": "<p>Click it to view all articles in this category!</p>"
             },
             "post_title_link": {
-                "1": "Want to read <span>{text}</span> this article?"
+                "1": "<p>Want to read <span>{text}</span> this article?</p>"
             },
             "a_rel_contents": {
-                "1": "Click to read the full text."
+                "1": "<p>Click to read the full text.</p>"
             },
             "a_itemprop_discussionUrl": {
-                "1": "Want to see the comments?"
+                "1": "<p>Want to see the comments?</p>"
             },
             "bein_a": {
-                "1": "I also have a registered residence.",
-                "2": "My master is a good master who obeys the law."
+                "1": "<p>I also have a registered residence.</p>",
+                "2": "<p>My master is a good master who obeys the law.</p>"
             },
             "container_a_href_http_nav_link_nav_text": {
-                "1": "Want to see <span>{text}</span>?",
-                "2": "Go to <span>{text}</span> for a stroll.",
-                "3": "Go to <span>{text}</span> to take a look."
+                "1": "<p>Want to see <span>{text}</span>?</p>",
+                "2": "<p>Go to <span>{text}</span> for a stroll.</p>",
+                "3": "<p>Go to <span>{text}</span> to take a look.</p>"
             },
-            "back_to_top": {
-                "1": "Click it to go back to the top!",
-                "2": "Back to the original starting point~",
-                "3": "Do you want to go back to where you started?"
+            "btnEntrance": {
+                "1": "<p>Click it to go back to the top!</p>",
+                "2": "<p>Back to the original starting point~</p>",
+                "3": "<p>Do you want to go back to where you started?</p>"
             },
             "reward_container": {
-                "1": "Am I awesome~ Give me a thumbs up!",
-                "2": "Do you want to reward me? I look forward to it~",
-                "3": "The master is eating dirt recently. It looks very hard. Give him some money~"
+                "1": "<p>Am I awesome~ Give me a thumbs up!</p>",
+                "2": "<p>Do you want to reward me? I look forward to it~</p>",
+                "3": "<p>The master is eating dirt recently. It looks very hard. Give him some money~</p>"
             },
             "wechat": {
-                "1": "This is my WeChat QR code~"
+                "1": "<p>This is my WeChat QR code~</p>"
             },
             "alipay": {
-                "1": "This is my Alipay!"
+                "1": "<p>This is my Alipay!</p>"
             },
             "bitcoin": {
-                "1": "This is my Bitcoin account!"
+                "1": "<p>This is my Bitcoin account!</p>"
             },
             "needsharebutton_postbottom_btn": {
-                "1": "Good things must be known to more people.",
-                "2": "If you think the article is helpful, you can share it with more friends in need."
+                "1": "<p>Good things must be known to more people.</p>",
+                "2": "<p>If you think the article is helpful, you can share it with more friends in need.</p>"
             },
             "need_share_button_weibo": {
-                "1": "Weibo? Come and share a wave of meows!"
+                "1": "<p>Weibo? Come and share a wave of meows!</p>"
             },
             "need_share_button_wechat": {
-                "1": "Share to WeChat!"
+                "1": "<p>Share to WeChat!</p>"
             },
             "need_share_button_douban": {
-                "1": "It seems good to share on Douban!"
+                "1": "<p>It seems good to share on Douban!</p>"
             },
             "need_share_button_qqzone": {
-                "1": "QQ space, one-click forwarding, yeah~"
+                "1": "<p>QQ space, one-click forwarding, yeah~</p>"
             },
             "need_share_button_twitter": {
-                "1": "Twitter? It doesn't seem to exist?"
+                "1": "<p>Twitter? It doesn't seem to exist?</p>"
             },
             "need_share_button_facebook": {
-                "1": "emmm...FB does not seem to exist?"
+                "1": "<p>emmm...FB does not seem to exist?</p>"
             },
             "post_nav_item_a_rel_next": {
-                "1": "Let's take a look at the next article.",
-                "2": "Click it to see the next article!",
-                "3": "Do you want to turn to the next article?"
+                "1": "<p>Let's take a look at the next article.</p>",
+                "2": "<p>Click it to see the next article!</p>",
+                "3": "<p>Do you want to turn to the next article?</p>"
             },
             "post_nav_item_a_rel_prev": {
-                "1": "Let's take a look at the previous article.",
-                "2": "Click it to read the previous article!",
-                "3": "Do you want to turn to the previous article?"
+                "1": "<p>Let's take a look at the previous article.</p>",
+                "2": "<p>Click it to read the previous article!</p>",
+                "3": "<p>Do you want to turn to the previous article?</p>"
             },
             "extend_next": {
-                "1": "Go to the next page and see.",
-                "2": "Click it to move forward!",
-                "3": "Do you want to turn to the next page?"
+                "1": "<p>Go to the next page and see.</p>",
+                "2": "<p>Click it to move forward!</p>",
+                "3": "<p>Do you want to turn to the next page?</p>"
             },
             "extend_prev": {
-                "1": "Go to the previous page and have a look.",
-                "2": "Click it to go back!",
-                "3": "Do you want to turn to the previous page?"
+                "1": "<p>Go to the previous page and have a look.</p>",
+                "2": "<p>Click it to go back!</p>",
+                "3": "<p>Do you want to turn to the previous page?</p>"
             },
             "input_vnick": {
-                "1": "What should I call you?",
-                "2": "Leave your first name!"
+                "1": "<p>What should I call you?</p>",
+                "2": "<p>Leave your first name!</p>"
             },
             "vmail": {
-                "1": "Leave your mailbox, otherwise you will be a person without a profile picture!",
-                "2": "Remember to set up a Gravatar profile picture!",
-                "3": "In order to inform you of the latest news, be sure to leave your email address!"
+                "1": "<p>Leave your mailbox, otherwise you will be a person without a profile picture!</p>",
+                "2": "<p>Remember to set up a Gravatar profile picture!</p>",
+                "3": "<p>In order to inform you of the latest news, be sure to leave your email address!</p>"
             },
             "vlink": {
-                "1": "Hurry up and tell me where your home is, so that I can visit it!"
+                "1": "<p>Hurry up and tell me where your home is, so that I can visit it!</p>"
             },
             "veditor": {
-                "1": "Want to comment on something?",
-                "2": "Do you want to say something?",
-                "3": "Think the blog is good? Come and leave a message to communicate with the owner!"
+                "1": "<p>Want to comment on something?</p>",
+                "2": "<p>Do you want to say something?</p>",
+                "3": "<p>Think the blog is good? Come and leave a message to communicate with the owner!</p>"
             },
             "vcontrol_a": {
-                "1": "Can you use Markdown proficiently?",
-                "2": "Use Markdown to make comments more beautiful~"
+                "1": "<p>Can you use Markdown proficiently?</p>",
+                "2": "<p>Use Markdown to make comments more beautiful~</p>"
             },
             "vemoji_btn": {
-                "1": "Do you want to insert a cute emoji?",
-                "2": "Do you want to come to express your love?"
+                "1": "<p>Do you want to insert a cute emoji?</p>",
+                "2": "<p>Do you want to come to express your love?</p>"
             },
             "vpreview_btn": {
-                "1": "Do you want to preview your speech?",
-                "2": "Look at how much negative entropy your comment has!"
+                "1": "<p>Do you want to preview your speech?</p>",
+                "2": "<p>Look at how much negative entropy your comment has!</p>"
             },
             "vsubmit": {
-                "1": "The comments have not been reviewed, you are responsible for your own comments~",
-                "2": "Do you want to submit, please be patient and wait for the reply~"
+                "1": "<p>The comments have not been reviewed, you are responsible for your own comments~</p>",
+                "2": "<p>Do you want to submit, please be patient and wait for the reply~</p>"
             },
             "vcontent": {
-                "1": "Wow, look at this wonderful review!",
-                "2": "If you have any questions, please leave a message as soon as possible~"
+                "1": "<p>Wow, look at this wonderful review!</p>",
+                "2": "<p>If you have any questions, please leave a message as soon as possible~</p>"
             }
         },
         "click": {
             "waifu": {
-                "1": "Yes... I bumped into it accidentally...",
-                "2": "What is Lolicon?",
-                "3": "Did you see my little bear?",
-                "4": "If you touch it again, I will call the police! ⌇●﹏●⌇",
-                "5": "110? There is a pervert who has been touching me (ó﹏ò｡)",
-                "6": "Don't touch me, I will tell my wife to hit you!",
-                "7": "Why move me! Be careful I bite you!",
-                "8": "Don't touch me, what is there to touch??!"
+                "1": "<p>Yes... I bumped into it accidentally...</p>",
+                "2": "<p>I'm just a loli, you pedo! (ó﹏ò｡)</p>",
+                "3": "<p>Did you see my little bear?</p>",
+                "4": "<p>If you touch it again, I will call the police! ⌇●﹏●⌇</p>",
+                "5": "<p>Waaa! There is a pervert who has been touching me (ó﹏ò｡)</p>",
+                "6": "<p>Get off me, or I will tell my master Daniel to hit you!</p>",
+                "7": "<p>Why move me! Be careful I'll bite you!</p>",
+                "8": "<p>Don't touch me, what is there to touch??!</p>",
+                "9": "<p>Hoy manyak, FBI wants to know your location!</p>",
+                "10": "<p>Control yourself pwede?!?!</p>"
             },
             "veditor": {
-                "1": "What are you going to complain about?",
-                "2": "You must fill in meow carefully~",
-                "3": "Is there anything you want to say?"
+                "1": "<p>What are you going to complain about?</p>",
+                "2": "<p>You must fill in meow carefully~</p>",
+                "3": "<p>Is there anything you want to say?</p>"
             },
             "vsubmit": {
-                "1": "Enter the verification code to submit a comment~"
+                "1": "<p>Enter the verification code to submit a comment~</p>"
             }
         },
         "seasons": {
-            "1": "<span>New Year's Day</span>, the new year has begun again, this year is {year}~",
-            "2": "It's another year <span>Valentine's Day</span>, I found the object in {year}~",
-            "3": "Today is <span>International Women's Day</span>!",
-            "4": "Today is <span>Arbor Day</span>, protect the environment!",
-            "5": "Tell you a secret quietly~<span>Today is April Fool's Day, don't be fooled~</span>",
-            "6": "Today is <span>Labor Day</span>, have you planned where to go for the holiday~",
-            "7": "<span>Children's Day</span> is now, happy time is always short, it would be great if it never grows up...",
-            "8": "<span>The Victory Day of the Chinese People’s War of Resistance Against Japanese Aggression</span>, remembering history, remembering the martyrs, cherishing peace, and creating the future.",
-            "9": "<span>Teacher's Day</span>, I want to say hello to the teacher in school~",
-            "10": "<span>National Day</span> is here, for the motherland’s birthday!",
-            "11": "Who did you spend with this year's <span>Double Eleven</span>~",
-            "12": "These days are <span>Christmas</span>, the owner must have gone shopping again~"
+            "1": "<p><span>New Year's Day</span>, the new year has begun again, this year is {year}~</p>",
+            "2": "<p>It's another year <span>Valentine's Day</span>, I found the object in {year}~</p>",
+            "3": "<p>Today is <span>International Women's Day</span>!</p>",
+            "4": "<p>Today is <span>Arbor Day</span>, protect the environment!</p>",
+            "5": "<p>Tell you a secret quietly~<span>Today is April Fool's Day, don't be fooled~</span></p>",
+            "6": "<p>Today is <span>Labor Day</span>, have you planned where to go for the holiday~</p>",
+            "7": "<p><span>Children's Day</span> is now, happy time is always short, it would be great if it never grows up...</p>",
+            "8": "<p><span>The Victory Day of the Chinese People’s War of Resistance Against Japanese Aggression</span>, remembering history, remembering the martyrs, cherishing peace, and creating the future.</p>",
+            "9": "<p><span>Teacher's Day</span>, I want to say hello to the teacher in school~</p>",
+            "10": "<p><span>National Day</span> is here, for the motherland’s birthday!</p>",
+            "11": "<p>Who did you spend with this year's <span>Double Eleven</span>~</p>",
+            "12": "<p>These days are <span>Christmas</span>, the owner must have gone shopping again~</p>"
         },
         "general": {
             "longtime": {
-                "1": "Long time no see, time flies so fast...",
-                "2": "Hey! How long have you been ignoring me~~",
-                "3": "Hi~ Come and play with me!",
-                "4": "Take this punch~!"
+                "1": "<p>Be a man of focus, commitment, and sheer will. Keep it up!</p>",
+                "2": "<p>Hey! How long have you been ignoring me~~</p>",
+                "3": "<p>Hi~ How are you now?</p>",
+                "4": "<p>Time flies so fast...</p>",
+                "5": "<p>You have been studying for a long time! Master, please take a break.</p>",
+                "6": "<p>Master, let me sleep for a while. zZzZz...</p>"
             },
             "camera": {
-                "1": "Yay, it's taken. Isn't it cute?"
+                "1": "<p>Yay, it's taken. Isn't it cute?</p>"
             },
             "exit": {
-                "1": "May you meet this important person again one day!"
+                "1": "<p>May you meet this important person again one day!</p>"
             },
             "console": {
-                "1": "Haha, you opened the console, do you want to see my little secret?"
+                "1": "<p>Haha, you opened the console, do you want to see my little secret?</p>"
             },
             "copy": {
-                "1": "What have you copied? Remember to add the source for reprinting!"
+                "1": "<p>What have you copied? Remember to paste it somewhere!</p>"
             },
             "visibilityChange": {
-                "1": "Wow, finally, you're back!"
+                "1": "<p>Wow, finally, you're back!</p>",
+                "2": "<p>I'm glad you're back, what's up? How are you doing?</p>"
             },
             "dress": {
-                "1": "Does my new dress look good?",
-                "2": "How is my new dress?"
+                "1": "<p>Does my new dress look good?</p>",
+                "2": "<p>Ughh, I ran out of clothes!</p>"
             }
         },
         "time": {
-            "5_7": "Good morning! The plan for a day lies in the morning, and a beautiful day is about to begin.",
-            "7_11": "Good morning! Don't sit for a long time, get up and move around!!",
-            "11_13": "It's noon! Can I take a break? It's lunch time!!",
-            "13_17": "It's easy to get sleepy in the afternoon. Have you done any sports today?",
-            "17_19": "It's evening! The sunset outside the window is very beautiful~",
-            "19_21": "Good evening, how are you doing today?",
+            "5_7": "<p>Good morning! The plan for a day lies in the morning, and a beautiful day is about to begin.</p>",
+            "7_11": "<p>Good morning! Don't sit for a long time, get up and move around!!</p>",
+            "11_13": "<p>It's noon! Can I take a break? It's lunch time!!</p>",
+            "13_17": "<p>It's easy to get sleepy in the afternoon. Have you done any sports today?</p>",
+            "17_19": "<p>It's evening! The sunset outside the window is very beautiful~</p>",
+            "19_21": "<p>Good evening, how are you doing today?</p>",
             "21_23": {
-                "1": "It's already so late, rest early, good night~",
-                "2": "Take care of your eyes late at night!"
+                "1": "<p>It's already so late, rest early, good night~</p>",
+                "2": "<p>Take care of your eyes late at night!</p>"
             },
-            "24": "Are you a night owl? If you don't go to bed so late, will you get up tomorrow?"
+            "24": "<p>Are you a night owl? If you don't go to bed so late, will you get up tomorrow?</p>"
         },
         "welcome": {
-            "1": "Welcome to <p>「%{data}」</p>",
-            "2": "Hello! Welcome from Baidu Search<br>You are searching <span>「%{data}」</span>. Did you find it?",
-            "3": "Hello! Welcome from 360 Search<br>You are searching <span>「%{data}」</span>. Did you find it?",
-            "4": "Hello! Friends from Google Search<br>You are searching <span>「${data}」</span>. Did you find it?",
-            "5": "Hello from <span>「%{data}」</span>. Welcome!",
-            "6": "Welcome to read<span>「%{data}」</span>"
+            "1": "<p>Welcome to</p> <p>「%{data}」</p>",
+            "2": "<p>Hello! Welcome from Baidu Search<br>You are searching <span>「%{data}」</span>. Did you find it?</p>",
+            "3": "<p>Hello! Welcome from 360 Search<br>You are searching <span>「%{data}」</span>. Did you find it?</p>",
+            "4": "<p>Hello! Friends from Google Search<br>You are searching <span>「${data}」</span>. Did you find it?</p>",
+            "5": "<p>Hello from <span>「%{data}」</span>. Welcome!",
+            "6": "<p>Welcome to read<span>「%{data}」</span>"
         },
         "hikoto": {
-            "1": "This sentence come from <span>「%{source}」</span>，by <span>%{author}</span> from hitokoto.cn."
+            "1": "<p>This sentence come from <span>「%{source}」</span>，by <span>%{author}</span> from hitokoto.cn.</p>"
         },
-        "来自 Potion Maker 的 Pio 酱 ~": "Hi, I'm Potion Maker Pio!",
-        "来自 Potion Maker 的 Tia 酱 ~": "Hi, I'm Potion Maker Tia!",
-        "来自 Bilibili Live 的 22 哦 ~": "22 from Bilibili Live",
-        "来自 Bilibili Live 的 33 的说": "33 from Bilibili Live",
-        "Shizuku Talk ！这里是 Shizuku ~": "Hi, I'm Shizuku from Shizuku Talk!",
-        "Nep! Nep! 超次元游戏：海王星 系列": "Nep, Nep, Nep, Nep! ",
-        "艦隊これくしょん / 叢雲(むらくも)": "Kantai Collection / Murakumo"
+        "来自 Potion Maker 的 Pio 酱 ~": "<p>Hi, I'm Potion Maker Pio!</p>",
+        "来自 Potion Maker 的 Tia 酱 ~": "<p>Hi, I'm Potion Maker Tia!</p>",
+        "来自 Bilibili Live 的 22 哦 ~": "<p>22 from Bilibili Live</p>",
+        "来自 Bilibili Live 的 33 的说": "<p>33 from Bilibili Live</p>",
+        "Shizuku Talk ！这里是 Shizuku ~": "<p>Hi, I'm Shizuku from Shizuku Talk!</p>",
+        "Nep! Nep! 超次元游戏：海王星 系列": "<p>Nep, Nep, Nep, Nep! </p>",
+        "艦隊これくしょん / 叢雲(むらくも)": "<p>Kantai Collection / Murakumo</p>",
+        "这位是 Haru": "<p>This is Haru</p>",
+        "Epsilon 2": ". <p>愛</p>",
+        "泉": "<p>Hi, I am Fe</p>",
+        "Tsumiki": "<p>This is Tsumiki</p>",
+        "来自 艦隊Collection 的 ひびき": "<p>I'm Hibiki from Kantai Collection</p>",
+        "Hijiki #我只是一只小猫咪": "<p>Hijiki #I'm just a little cat</p>",
+        "Tororo #我也是一只小猫咪": "<p>Tororo #I am also a little cat</p>",
+        "Wanko #我是一只狗": "<p>Wanko #I am a dog</p>",
+        "这位是 はると": "<p>This is Haruto</p>",
+        "这位是 こはる": "<p>This is Koharu</p>",
+        "ni-j": "<p>I am ni-j</p>",
+        "Nico": "<p>Say hi to me, Nico</p>",
+        "Nietzsche": "<p>I'm Nietzsche</p>",
+        "Nipsilon": "<p>This is Nipsilon</p>",
+        "にと": "<p>I am Nito</p>",
+        "来自 はたらく細胞 的 血小板 ～": "<p>Platelets from cells at work~</p>",
+        "来自 Potion Maker 的 Pio 酱 ～": "<p>Hi, I'm Potion Maker Pio!</p>",
+        "来自 Potion Maker 的 Tia 酱 ～": "<p>Hi, I'm Potion Maker Tia!</p>",
+        "来自 Bilibili Live 的 22 哦 ～": "<p>22 from Bilibili Live</p>",
+        "Shizuku Talk ！这里是 Shizuku ～": "<p>Hi, I'm Shizuku from Shizuku Talk!</p>",
+        "Nep, Nep, Nep, Nep! ": "<p>Hi, This is Neptune from Hyperdimension Neptunia</p>",
+        "来自 战舰少女 的 Z16": "<p>Z16 from Warship Girls</p>",
+        "初音ミク": "<p>Hi! Hatsune Miku here from Vocaloid</p>"
+
 
     },
      "zh-CN": {
@@ -379,7 +413,7 @@
                 "3": "古之立大事者，不惟有超世之才，亦必有坚忍不拔之志。",
                 "4": "师父，我该如何为您服务？",
                 "5": "给岁月以文明，而不是给文明以岁月。",
-                "6": "您已经学习了几个小时！ 师父，请休息一下。",
+                "6": "要了解您的敌人，您必须成为您的敌人。",
                 "7": "您所爱的人在想着您，付出时间并开心。",
                 "8": "不要放弃，你可以做到！ 我相信你！",
                 "9": "许多人宁愿否认事实，也不愿面对现实。",
@@ -657,10 +691,12 @@
         },
         "general": {
             "longtime": {
-                "1": "好久不见，日子过得好快呢……",
+                "1": "做一个专注，有决心，意志坚定的人。 保持！",
                 "2": "大坏蛋！你都多久没理人家了呀，嘤嘤嘤～",
                 "3": "嗨～快来逗我玩吧！",
-                "4": "拿小拳拳锤你胸口！"
+                "4": "好久不见，日子过得好快呢……",
+                "5": "您已经学习了几个小时！ 师父，请休息一下。",
+                "6": "师父，让我睡一会儿。 Z"
             },
             "camera": {
                 "1": "照好了嘛，是不是很可爱呢？"
@@ -675,7 +711,8 @@
                 "1": "你都复制了些什么呀，转载要记得加上出处哦！"
             },
             "visibilityChange": {
-                "1": "哇，你终于回来了～"
+                "1": "哇，你终于回来了～",
+                "2": "很高兴您回来了，怎么了？ 你好吗？"
             },
             "dress": {
                 "1": "我的新衣服好看嘛？",
