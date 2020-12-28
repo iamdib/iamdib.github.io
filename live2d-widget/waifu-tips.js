@@ -42,7 +42,7 @@ function loadWidget(config) {
 	let userAction = false,
 		userActionTimer,
 		messageTimer,
-		messageArray = ["general.longtime.1", "general.longtime.2", "general.longtime.3", "general.longtime.4"];
+		messageArray = ["general.longtime.1", "general.longtime.2", "general.longtime.3", "general.longtime.4", "general.longtime.5", "general.longtime.6"];
 	window.addEventListener("mousemove", () => userAction = true);
 	window.addEventListener("keydown", () => userAction = true);
 	setInterval(() => {
@@ -53,12 +53,12 @@ function loadWidget(config) {
 		} else if (!userActionTimer) {
 			userActionTimer = setInterval(() => {
 				showMessage(randomSelection(messageArray), 6000, 9);
-			}, 20000);
+			}, 120000);
 		}
 	}, 1000);
 
 	(function registerEventListener() {
-		document.querySelector("#waifu-tool .fa-comment").addEventListener("click", showHitokoto);
+		//document.querySelector("#waifu-tool .fa-comment").addEventListener("click", showHitokoto);
 		document.querySelector("#waifu-tool .fa-paper-plane").addEventListener("click", () => {
 			if (window.Asteroids) {
 				if (!window.ASTEROIDSPLAYERS) window.ASTEROIDSPLAYERS = [];
@@ -233,6 +233,14 @@ function loadWidget(config) {
 		}
 	}
 
+	// async function loadRandModel() {
+	// 	const modelId = localStorage.getItem("modelId"),
+	// 		modelTexturesId = localStorage.getItem("modelTexturesId");
+	// 	if (useCDN) {
+	// 		if (!modelList) await loadModelList();
+	// 		const target = randomSelection(modelList.models[modelId]);
+	// 		loadlive2d("live2d", `${cdnPath}model/${target}/index.json`);
+	// 		showMessage("general.dress.1", 4000, 10);
 	async function loadRandModel() {
 		const modelId = localStorage.getItem("modelId"),
 			modelTexturesId = localStorage.getItem("modelTexturesId");
@@ -246,8 +254,8 @@ function loadWidget(config) {
 			fetch(`${apiPath}rand_textures/?id=${modelId}-${modelTexturesId}`)
 				.then(response => response.json())
 				.then(result => {
-					if (result.textures.id === 1 && (modelTexturesId === 1 || modelTexturesId === 0)) showMessage("Ughh, I ran out of clothes!", 4000, 10);
-					else loadModel(modelId, result.textures.id, "general.dress.2?");
+					if (result.textures.id === 1 || (modelTexturesId === 1 ||  modelTexturesId === 0 )) loadModel(modelId, result.textures.id, "general.dress.2"); //showMessage("general.dress.2", 10000, 10);
+					else loadModel(modelId, result.textures.id, "general.dress.1");
 				});
 		}
 	}
