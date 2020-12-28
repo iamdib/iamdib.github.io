@@ -331,7 +331,7 @@
                 "2": "<p>I'm glad you're back, what's up? How are you doing?</p>"
             },
             "dress": {
-                "1": "<p>Does my new dress look good?</p>",
+                "1": "<p>Please wait.. I'm changing my clothes. Do you think this dress looks good on me?</p>",
                 "2": "<p>Ughh, I ran out of clothes!</p>"
             }
         },
