@@ -208,6 +208,13 @@
             ]
         },
         {
+            "selector": "pre",
+            "text": [
+                "mouseover.pre.1",
+                "mouseover.pre.2"
+            ]
+        },
+        {
             "selector": "a[href^='mailto']",
             "text": [
                 "mouseover.a_href_mail_to.1",
@@ -262,11 +269,11 @@
             ]
         },
         {
-            "selector": ".back-to-top",
+            "selector": ".btnEntrance",
             "text": [
-                "mouseover.back_to_top.1",
-                "mouseover.back_to_top.2",
-                "mouseover.back_to_top.3"
+                "mouseover.btnEntrance.1",
+                "mouseover.btnEntrance.2",
+                "mouseover.btnEntrance.3"
             ]
         },
         {
@@ -446,7 +453,9 @@
                 "click.waifu.5",
                 "click.waifu.6",
                 "click.waifu.7",
-                "click.waifu.8"
+                "click.waifu.8",
+                "click.waifu.9",
+                "click.waifu.10"
             ]
         },
         {
