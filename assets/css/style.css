@@ -3,6 +3,19 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+details {
+  visibility: collapse;
+}
+
+summary {
+  visibility: visible;
+}
+
+pre {
+  visibility: visible;
+}
+
 /* html {
   scroll-behavior: smooth;
 } 
