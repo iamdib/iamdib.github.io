@@ -65,7 +65,7 @@ function loadWidget(config) {
 				window.ASTEROIDSPLAYERS.push(new Asteroids());
 			} else {
 				const script = document.createElement("script");
-				script.src = "https://cdn.jsdelivr.net/gh/stevenjoezhang/asteroids/asteroids.js";
+				script.src = "/assets/asteroids.js";
 				document.head.appendChild(script);
 			}
 		});
@@ -241,7 +241,7 @@ function loadWidget(config) {
 	// 		const target = randomSelection(modelList.models[modelId]);
 	// 		loadlive2d("live2d", `${cdnPath}model/${target}/index.json`);
 	// 		showMessage("general.dress.1", 4000, 10);
-	async function loadRandModel() {
+		async function loadRandModel() {
 		const modelId = localStorage.getItem("modelId"),
 			modelTexturesId = localStorage.getItem("modelTexturesId");
 		if (useCDN) {
