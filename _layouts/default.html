@@ -1,32 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-        {%- include head.html -%}  
-    <body>
-    <main class="page-content" aria-label="Content"> 
-        <div class="wrapper">
-            <input type="checkbox" id="toggle"/>
-            <label for="toggle"></label>
-            <script src="{{ site.url }}/assets/mode-switcher.js"></script>
-            <script>
-                const toggleSwitch = document.querySelector('#dark-mode-button input[type="checkbox"]');
-                
-                if (localStorage.theme) {
-                  toggleSwitch.checked = localStorage.theme === "dark";
-                }
-                
-                function switchTheme(e) {
-                  const theme = e.target.checked ? "dark" : "light";
-                  document.documentElement.setAttribute("data-theme", theme);
-                  localStorage.theme = theme;
-                }
-                
-                toggleSwitch.addEventListener("change", switchTheme);
-            </script>
+        {%- include head.html -%}     
     <button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
     <script src="{{ site.url }}/assets/main.js"></script>
     <script src="{{ site.url }}/live2d-widget/autoload.js"></script>
- 
-            {{ content }}
+    {{ content }}
         </div>
     </main>
         {%- include footer.html -%}     

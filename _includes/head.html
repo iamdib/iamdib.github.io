@@ -5,10 +5,6 @@
   <meta name="robots" content="nofollow" />
   <meta name="robots" content="noarchive" />
   {%- seo title=false -%}
-<script>
-  // Render blocking JS:
-  if (localStorage.theme) document.documentElement.setAttribute("data-theme", localStorage.theme);
-</script>
 <style>
 *,*:after, *:before {
 	box-sizing: border-box;
@@ -151,6 +147,12 @@ input[type="checkbox"]:checked + label[for=toggle]:after {
   <script>
     hljs.initHighlightingOnLoad();
   </script>
+<body>
+	<main class="page-content" aria-label="Content">
+	<div class="wrapper">
+	<input type="checkbox" id="toggle"/>
+	<label for="toggle"></label>
+	<script src="{{ site.url }}/assets/mode-switcher.js"></script>
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
   {%- include google-analytics.html -%}
