@@ -6,6 +6,8 @@
   <meta name="robots" content="noarchive" />
   {%- seo title=false -%}
 <script>
+  // Render blocking JS:
+  if (localStorage.theme) document.documentElement.setAttribute("data-theme", localStorage.theme);
 	  function applyBackgroundTheme(color) {
     var css = "body { background: " + color + "; }",
     head = document.head || document.getElementsByTagName('head')[0],
