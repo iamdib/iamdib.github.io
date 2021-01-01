@@ -145,7 +145,32 @@ input[type="checkbox"]:checked + label[for=toggle]:after {
 	<div class="wrapper">
 	<input type="checkbox" id="toggle"/>
 	<label for="toggle"></label>
-	<script src="{{ site.url }}/assets/mode-switcher.js"></script>
+	<script>
+		const toggleSwitch = document.getElementById('toggle'); 
+
+const currentTheme = localStorage.getItem("theme") || null;
+
+  if (currentTheme === 'dark') {
+	document.body.classList.toggle('dark');
+    toggleSwitch.checked = true
+  }
+  else {
+    document.body.classList.toggle('light');
+  }
+
+  toggleSwitch.addEventListener("change", e => {
+    if (e.target.checked) {
+      document.body.classList.toggle('dark');
+      document.body.className = 'dark';
+      localStorage.setItem("theme","dark");
+    } else {
+      document.body.classList.toggle('light');
+      document.body.className = 'light';
+      localStorage.setItem("theme","light");
+    }
+  });
+
+	</script>
 	{{ content }}
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
