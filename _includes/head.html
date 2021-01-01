@@ -145,6 +145,9 @@ input[type="checkbox"]:checked + label[for=toggle]:after {
   <link rel="stylesheet" href="{{ site.url }}/assets/css/agate.css" />
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
 <body>
+	<script src="https://cdn.jsdelivr.net/npm/i18n-js@3.8.0/app/assets/javascripts/i18n.min.js"></script>
+	<script src="{{ site.url }}/live2d-widget/autoload.js"></script>  
+
 	<main class="page-content" aria-label="Content">
 	<div class="wrapper">
 	<input type="checkbox" id="toggle"/>
@@ -174,8 +177,6 @@ const currentTheme = localStorage.getItem("theme") || null;
     }
   });
 </script>
-  <script src="https://cdn.jsdelivr.net/npm/i18n-js@3.8.0/app/assets/javascripts/i18n.min.js"></script>
-  <script src="{{ site.url }}/live2d-widget/autoload.js"></script>  
 
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
