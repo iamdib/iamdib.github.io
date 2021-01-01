@@ -19,7 +19,7 @@ function loadWidget(config) {
 	sessionStorage.removeItem("waifu-text");
 	document.body.insertAdjacentHTML("beforeend", `<div id="waifu">
 			<div id="waifu-tips"></div>
-			<canvas id="live2d" width="800" height="800"></canvas>
+			<canvas id="live2d" width="800" height="970"></canvas>
 			<div id="waifu-tool">
 				<span class="fa fa-lg fa-comment"></span>
 				<span class="fa fa-lg fa-paper-plane"></span>
@@ -183,33 +183,32 @@ function loadWidget(config) {
 			.then(response => response.json())
 			.then(result => {
 				window.addEventListener("mouseover", event => {
-					for (let { selector, text } of result.mouseover) {
-                        if (!event.target.matches(selector)) continue;
-                        text = randomSelection(text);
-                        text = text.replace("{text}", event.target.innerText);
-                        showMessage(text, 4000, 8);
-                        return;
-                    }
-                });
-                window.addEventListener("click", event => {
-                    for (let { selector, text } of result.click) {
-
-                        if (!event.target.matches(selector)) continue;
-                        text = randomSelection(text);
-                        text.replace("{text}", event.target.innerText);
-                        showMessage(text, 4000, 8);
-                        return;
-                    }
-                });
-                result.seasons.forEach(({ date, text }) => {
-                    const now = new Date(),
-                        after = date.split("/")[0],
-                        before = date.split("/")[1] || after;
-                    if ((after.split("/")[0] <= now.getMonth() + 1 && now.getMonth() + 1 <= before.split("/")[0]) && (after.split("/")[1] <= now.getDate() && now.getDate() <= before.split("/")[1])) {
-                        text = randomSelection(text);
-                        text = text.replace("{year}", now.getFullYear());
-                        //showMessage(text, 7000, true);
-                        messageArray.push(text);
+					for (let tips of result.mouseover) {
+						if (!event.target.matches(tips.selector)) continue;
+						let text = randomSelection(tips.text);
+						text = text.replace("{text}", event.target.innerText);
+						showMessage(text, 4000, 8);
+						return;
+					}
+				});
+				window.addEventListener("click", event => {
+					for (let tips of result.click) {
+						if (!event.target.matches(tips.selector)) continue;
+						let text = randomSelection(tips.text);
+						text = text.replace("{text}", event.target.innerText);
+						showMessage(text, 4000, 8);
+						return;
+					}
+				});
+				result.seasons.forEach(tips => {
+					const now = new Date(),
+						after = tips.date.split("/")[0],
+						before = tips.date.split("/")[1] || after;
+					if ((after.split("/")[0] <= now.getMonth() + 1 && now.getMonth() + 1 <= before.split("/")[0]) && (after.split("/")[1] <= now.getDate() && now.getDate() <= before.split("/")[1])) {
+						let text = randomSelection(tips.text);
+						text = text.replace("{year}", now.getFullYear());
+						//showMessage(text, 7000, true);
+						messageArray.push(text);
 					}
 				});
 			});
