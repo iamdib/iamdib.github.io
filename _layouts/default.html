@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
         {%- include head.html -%}
-        
+    <body>
+        <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+        <input type="checkbox" id="toggle"/>
+        <label for="toggle"></label>
+        <script src="{{ site.url }}/assets/mode-switcher.js"></script>
+        {{ content }}    
     <script src="{{ site.url }}/live2d-widget/autoload.js"></script>  
     <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.5.0/build/highlight.min.js"></script>  
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
