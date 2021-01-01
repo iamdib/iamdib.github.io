@@ -5,7 +5,6 @@
   <meta name="robots" content="nofollow" />
   <meta name="robots" content="noarchive" />
   {%- seo title=false -%}
-  <script>src="{{ site.url }}/live2d-widget/autoload.js"</script>
 <style>
 *,*:after, *:before {
 	box-sizing: border-box;
@@ -139,6 +138,12 @@ input[type="checkbox"]:checked + label[for=toggle]:after {
   <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css" />
   <link rel="shortcut icon" type="image/x-icon" href="/{{ site.favicon }}?" />
   <link rel="stylesheet" href="{{ site.url }}/assets/css/agate.css" />
+  <body>
+	<main class="page-content" aria-label="Content">
+	<div class="wrapper">
+	<input type="checkbox" id="toggle"/>
+	<label for="toggle"></label>
+	<script src="{{ site.url }}/assets/mode-switcher.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.1/highlight.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
@@ -146,13 +151,8 @@ input[type="checkbox"]:checked + label[for=toggle]:after {
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
   <script>
 	hljs.initHighlightingOnLoad();
+	src="{{ site.url }}/live2d-widget/autoload.js"
   </script>
-<body>
-	<main class="page-content" aria-label="Content">
-	<div class="wrapper">
-	<input type="checkbox" id="toggle"/>
-	<label for="toggle"></label>
-	<script src="{{ site.url }}/assets/mode-switcher.js"></script>
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
   {%- include google-analytics.html -%}
