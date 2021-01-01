@@ -10,6 +10,10 @@
 	box-sizing: border-box;
 }
 
+body {
+  transition: background 0s ease-in, color 0s ease-in;
+}
+
 .light {
 		background-color: #fdfdfd;
 }
@@ -145,21 +149,6 @@ input[type="checkbox"]:checked + label[for=toggle]:after {
 	<div class="wrapper">
 	<input type="checkbox" id="toggle"/>
 	<label for="toggle"></label>
-	<script>
-		function applyBackgroundTheme(color) {
-    var css = "body { background: " + color + "; }",
-    head = document.head || document.getElementsByTagName('head')[0],
-    style = document.createElement('style');
-    head.appendChild(style);
-
-      style.type = 'text/css';
-      if (style.styleSheet){
-        style.styleSheet.cssText = css;
-      } else {
-        style.appendChild(document.createTextNode(css));
-      }
-    }
-	</script>
 	<script src="{{ site.url }}/assets/mode-switcher.js"></script>
 	{{ content }}
   {%- feed_meta -%}
