@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
         {%- include head.html -%}
+        <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.5.0/build/highlight.min.js"></script> 
+        <script>hljs.initHighlightingOnLoad();</script>
+        <button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
+        <script src="{{ site.url }}/assets/main.js"></script>
+        {{ content }} 
+
         </div>
     </main>
         {%- include footer.html -%}     
