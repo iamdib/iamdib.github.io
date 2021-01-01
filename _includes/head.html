@@ -138,11 +138,28 @@ input[type="checkbox"]:checked + label[for=toggle]:after {
   <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css" />
   <link rel="shortcut icon" type="image/x-icon" href="/{{ site.favicon }}?" />
   <link rel="stylesheet" href="{{ site.url }}/assets/css/agate.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/i18n-js@3.8.0/app/assets/javascripts/i18n.min.js"></script>
   <body>
 	<main class="page-content" aria-label="Content">
 	<div class="wrapper">
 	<input type="checkbox" id="toggle"/>
 	<label for="toggle"></label>
+	<script>
+		function applyBackgroundTheme(color) {
+    var css = "body { background: " + color + "; }",
+    head = document.head || document.getElementsByTagName('head')[0],
+    style = document.createElement('style');
+    head.appendChild(style);
+
+      style.type = 'text/css';
+      if (style.styleSheet){
+        style.styleSheet.cssText = css;
+      } else {
+        style.appendChild(document.createTextNode(css));
+      }
+    }
+	</script>
 	<script src="{{ site.url }}/assets/mode-switcher.js"></script>
 	{{ content }}
   {%- feed_meta -%}
