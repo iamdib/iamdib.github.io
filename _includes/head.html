@@ -134,8 +134,6 @@ input[type="checkbox"]:checked + label[for=toggle]:after {
 	transform: translateX(89px) scale(1);
 }
 </style>
-  <script src="https://cdn.jsdelivr.net/npm/i18n-js@3.8.0/app/assets/javascripts/i18n.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="{{ site.url }}/assets/css/style.css">
   <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css" />
   <link rel="shortcut icon" type="image/x-icon" href="/{{ site.favicon }}?" />
@@ -145,32 +143,9 @@ input[type="checkbox"]:checked + label[for=toggle]:after {
 	<div class="wrapper">
 	<input type="checkbox" id="toggle"/>
 	<label for="toggle"></label>
-	<script>
-		const toggleSwitch = document.getElementById('toggle'); 
-
-const currentTheme = localStorage.getItem("theme") || null;
-
-  if (currentTheme === 'dark') {
-	document.body.classList.toggle('dark');
-    toggleSwitch.checked = true
-  }
-  else {
-    document.body.classList.toggle('light');
-  }
-
-  toggleSwitch.addEventListener("change", e => {
-    if (e.target.checked) {
-      document.body.classList.toggle('dark');
-      document.body.className = 'dark';
-      localStorage.setItem("theme","dark");
-    } else {
-      document.body.classList.toggle('light');
-      document.body.className = 'light';
-      localStorage.setItem("theme","light");
-    }
-  });
-
-	</script>
+	<script src="{{ site.url }}/assets/mode-switcher.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/i18n-js@3.8.0/app/assets/javascripts/i18n.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
 	{{ content }}
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
