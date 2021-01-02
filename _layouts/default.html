@@ -6,14 +6,14 @@
             <div class="wrapper">
             <input type="checkbox" id="toggle"/>
             <label for="toggle"></label>
-            <script src="{{ site.url }}/assets/mode-switcher.js"></script>
-            {{ content }} 
+            <script src="{{ site.url }}/assets/mode-switcher.js"></script>   
         <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.5.0/build/highlight.min.js"></script> 
         <script>hljs.initHighlightingOnLoad();</script>
         <button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
         <script src="{{ site.url }}/assets/main.js"></script>
-        </div>
+         {{ content }}      
+    </div>
     </main>
-        {%- include footer.html -%}     
+        {%- include footer.html -%}    
     </body>
 </html>
