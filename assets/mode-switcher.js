@@ -20,4 +20,17 @@ const currentTheme = localStorage.getItem("theme") || null;
       document.body.className = 'light';
       localStorage.setItem("theme","light");
     }
+    const toggleSwitch = document.querySelector('#toggle input[type="checkbox"]');
+		
+		if (localStorage.theme) {
+		  toggleSwitch.checked = localStorage.theme === "dark";
+		}
+		
+		function switchTheme(e) {
+		  const theme = e.target.checked ? "dark" : "light";
+		  document.documentElement.setAttribute("theme", theme);
+		  localStorage.theme = theme;
+		}
+		
+		toggleSwitch.addEventListener("change", switchTheme);
   });
