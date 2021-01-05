@@ -496,11 +496,11 @@
             ]
         },
         {
-            "selector": ".btnEntrance",
+            "selector": "button[id^='back-to-top-btn'",
             "text": [
-                "click.btnEntrance.1",
-                "click.btnEntrance.2",
-                "click.btnEntrance.3"
+                "click.button_id_back_to_top_btn.1",
+                "click.button_id_back_to_top_btn.2",
+                "click.button_id_back_to_top_btn.3"
             ]
         }
     ],

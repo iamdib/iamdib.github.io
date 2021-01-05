@@ -298,9 +298,9 @@
                 "7": "<p>Woohoo! Light mode on!</p>"
             },
             
-            "btnEntrance": {
+            "button_id_back_to_top_btn": {
                 "1": "<p>Up, up and away!</p>",
-                "2": "<p>We're back on top, baby!",
+                "2": "<p>We're back on top, baby!</p>",
                 "3": "<p>Back to the original starting point~</p>"
             },
             
