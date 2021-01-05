@@ -222,6 +222,12 @@
             ]
         },
         {
+            "selector": "a[href^='https://dibsec.net']",
+            "text": [
+                "mouseover.a_href_dibsec.1"
+            ]
+        },
+        {
             "selector": "a[href^='/tags/']",
             "text": [
                 "mouseover.a_href_tags.1",
@@ -266,14 +272,6 @@
                 "mouseover.container_a_href_http_nav_link_nav_text.1",
                 "mouseover.container_a_href_http_nav_link_nav_text.2",
                 "mouseover.container_a_href_http_nav_link_nav_text.3"
-            ]
-        },
-        {
-            "selector": ".btnEntrance",
-            "text": [
-                "mouseover.btnEntrance.1",
-                "mouseover.btnEntrance.2",
-                "mouseover.btnEntrance.3"
             ]
         },
         {
@@ -470,6 +468,39 @@
             "selector": ".vsubmit",
             "text": [
                 "click.vsubmit.1"
+            ]
+        },
+        {
+            "selector": ".dark label[for='toggle']",
+            "text": [
+                "click.dark_label_for_toggle.1",
+                "click.dark_label_for_toggle.2",
+                "click.dark_label_for_toggle.3",
+                "click.dark_label_for_toggle.4",
+                "click.dark_label_for_toggle.5",
+                "click.dark_label_for_toggle.6",
+                "click.dark_label_for_toggle.7"
+            ]
+        },
+        {
+            "selector": ".light label[for='toggle']",
+            "text": [
+                "click.light_label_for_toggle.1",
+                "click.light_label_for_toggle.2",
+                "click.light_label_for_toggle.3",
+                "click.light_label_for_toggle.4",
+                "click.light_label_for_toggle.5",
+                "click.light_label_for_toggle.6",
+                "click.light_label_for_toggle.7",
+                "click.light_label_for_toggle.8"
+            ]
+        },
+        {
+            "selector": ".btnEntrance",
+            "text": [
+                "click.btnEntrance.1",
+                "click.btnEntrance.2",
+                "click.btnEntrance.3"
             ]
         }
     ],

@@ -52,7 +52,7 @@ function loadWidget(config) {
 			userActionTimer = null;
 		} else if (!userActionTimer) {
 			userActionTimer = setInterval(() => {
-				showMessage(randomSelection(messageArray), 6000, 9);
+				showMessage(randomSelection(messageArray), 8000, 9);
 			}, 120000);
 		}
 	}, 1000);
@@ -72,7 +72,7 @@ function loadWidget(config) {
 		document.querySelector("#waifu-tool .fa-user-circle").addEventListener("click", loadOtherModel);
 		document.querySelector("#waifu-tool .fa-street-view").addEventListener("click", loadRandModel);
 		document.querySelector("#waifu-tool .fa-camera-retro").addEventListener("click", () => {
-			showMessage("general.camera.1", 6000, 9);
+			showMessage("general.camera.1", 8000, 9);
 			Live2D.captureName = "photo.png";
 			Live2D.captureFrame = true;
 		});
@@ -91,13 +91,13 @@ function loadWidget(config) {
 		const devtools = () => {};
 		console.log("%c", devtools);
 		devtools.toString = () => {
-			showMessage("general.console.1", 6000, 9);
+			showMessage("general.console.1", 8000, 9);
 		};
 		window.addEventListener("copy", () => {
-			showMessage("general.copy.1", 6000, 9);
+			showMessage("general.copy.1", 8000, 9);
 		});
 		window.addEventListener("visibilitychange", () => {
-			if (!document.hidden) showMessage("general.visibilityChange.1", 6000, 9);
+			if (!document.hidden) showMessage("general.visibilityChange.1", 2000, 9);
 		});
 	})();
 
@@ -124,7 +124,7 @@ function loadWidget(config) {
 		} else {
 			text = {i18n: "welcome.6", data: document.title.split(" - ")[0]};
 		}
-		showMessage(text, 7000, 8);
+		showMessage(text, 4000, 8);
 	})();
 
 	function showHitokoto() {
@@ -133,9 +133,9 @@ function loadWidget(config) {
 			.then(response => response.json())
 			.then(result => {
 				const text = {i18n: "hikoto", source: result.from, author: result.creator };
-				showMessage(result.hitokoto, 6000, 9);
+				showMessage(result.hitokoto, 8000, 9);
 				setTimeout(() => {
-					showMessage(text, 4000, 9);
+					showMessage(text, 8000, 9);
 				}, 6000);
 			});
 	}
@@ -196,7 +196,7 @@ function loadWidget(config) {
 						if (!event.target.matches(tips.selector)) continue;
 						let text = randomSelection(tips.text);
 						text = text.replace("{text}", event.target.innerText);
-						showMessage(text, 4000, 8);
+						showMessage(text, 8000, 8);
 						return;
 					}
 				});
@@ -248,7 +248,7 @@ function loadWidget(config) {
 			if (!modelList) await loadModelList();
 			const target = randomSelection(modelList.models[modelId]);
 			loadlive2d("live2d", `${cdnPath}model/${target}/index.json`);
-			showMessage("general.dress.1", 4000, 10);
+			showMessage("general.dress.1", 6000, 10);
 		} else {
 			// 可选 "rand"(随机), "switch"(顺序)
 			fetch(`${apiPath}rand_textures/?id=${modelId}-${modelTexturesId}`)

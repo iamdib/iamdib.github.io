@@ -152,6 +152,9 @@
                 "1": "<p>Want to see the <span>{text}</span> category?</p>",
                 "2": "<p>Click it to view all articles in this category!</p>"
             },
+            "a_href_dibsec": {
+                "1": "<p>Yay, we're going home!</p>"
+            },
             "post_title_link": {
                 "1": "<p>Want to read <span>{text}</span> this article?</p>"
             },
@@ -169,11 +172,6 @@
                 "1": "<p>Want to see <span>{text}</span>?</p>",
                 "2": "<p>Go to <span>{text}</span> for a stroll.</p>",
                 "3": "<p>Go to <span>{text}</span> to take a look.</p>"
-            },
-            "btnEntrance": {
-                "1": "<p>Click it to go back to the top!</p>",
-                "2": "<p>Back to the original starting point~</p>",
-                "3": "<p>Do you want to go back to where you started?</p>"
             },
             "reward_container": {
                 "1": "<p>Am I awesome~ Give me a thumbs up!</p>",
@@ -289,6 +287,32 @@
             },
             "vsubmit": {
                 "1": "<p>Enter the verification code to submit a comment~</p>"
+            },
+            "dark_label_for_toggle": {
+                "1": "<p>Light mode is the proof of your eyes strength.. Light mode users lang malakas!</p>",
+                "2": "<p>There are two kinds of light – the glow that illuminates, and the glare that obscures</p>",
+                "3": "<p>Did you know that when in light mode, you can blind people you hate? <br> Max brightness hell yeah!</p>",
+                "4": "<p>I will love the light for it shows me the way, yet I will endure the darkness for it shows me the stars</p>",
+                "5": "<p>I assure you, brother, the sun will shine on us again -- I know you understood this reference 😉</p>",
+                "6": "<p>Darkness cannot drive out darkness; only light can do that</p>",
+                "7": "<p>Woohoo! Light mode on!</p>"
+            },
+            
+            "btnEntrance": {
+                "1": "<p>Up, up and away!</p>",
+                "2": "<p>We're back on top, baby!",
+                "3": "<p>Back to the original starting point~</p>"
+            },
+            
+            "light_label_for_toggle": {
+            "1": "<p>Ahh yes, darkness, the absence of light</p>",
+            "2": "<p>Woohoo! Dark mode on! </p>",
+            "3": "<p>Totoo bang pag may dilim, may lagim?</p>",
+            "4": "<p>Darkness reminds me of a masochist crusader but a very kind, noble and beautiful young woman...</p>",
+            "5": "<p>I guess you're the type of person who also loves incognito mode too right?</p>",
+            "6": "<p>Did you know that dark mode makes it easier to stay focused on your work and is less strain on your eyes?</p>",
+            "7": "<p>♫ Hello darkness my old friend, I've come to talk with you again.. ♫</p>",
+            "8": "<p>Step 1: Dark mode <br> Step 2: Open a new tab <br> Step 3: go to p..hub -- programminghub.io"
             }
         },
         "seasons": {
