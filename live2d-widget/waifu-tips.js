@@ -19,7 +19,7 @@ function loadWidget(config) {
 	sessionStorage.removeItem("waifu-text");
 	document.body.insertAdjacentHTML("beforeend", `<div id="waifu">
 			<div id="waifu-tips"></div>
-			<canvas id="live2d" width="800" height="970"></canvas>
+			<canvas id="live2d" width="770" height="940"></canvas>
 			<div id="waifu-tool">
 				<span class="fa fa-lg fa-comment"></span>
 				<span class="fa fa-lg fa-paper-plane"></span>
@@ -72,7 +72,7 @@ function loadWidget(config) {
 		document.querySelector("#waifu-tool .fa-user-circle").addEventListener("click", loadOtherModel);
 		document.querySelector("#waifu-tool .fa-street-view").addEventListener("click", loadRandModel);
 		document.querySelector("#waifu-tool .fa-camera-retro").addEventListener("click", () => {
-			showMessage("general.camera.1", 8000, 9);
+			showMessage("general.camera.1", 4000, 9);
 			Live2D.captureName = "photo.png";
 			Live2D.captureFrame = true;
 		});
@@ -94,10 +94,10 @@ function loadWidget(config) {
 			showMessage("general.console.1", 8000, 9);
 		};
 		window.addEventListener("copy", () => {
-			showMessage("general.copy.1", 8000, 9);
+			showMessage("general.copy.1", 4000, 9);
 		});
 		window.addEventListener("visibilitychange", () => {
-			if (!document.hidden) showMessage("general.visibilityChange.1", 2000, 9);
+			if (!document.hidden) showMessage("general.visibilityChange.1", 1500, 9);
 		});
 	})();
 
@@ -135,7 +135,7 @@ function loadWidget(config) {
 				const text = {i18n: "hikoto", source: result.from, author: result.creator };
 				showMessage(result.hitokoto, 8000, 9);
 				setTimeout(() => {
-					showMessage(text, 8000, 9);
+					showMessage(text, 6000, 9);
 				}, 6000);
 			});
 	}
