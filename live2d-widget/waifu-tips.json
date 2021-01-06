@@ -204,13 +204,13 @@
             ]
         },
         {
-            "selector": "a[href^='https://dibsec.net']",
+            "selector": "a[href='https://dibsec.net']",
             "text": [
                 "mouseover.a_href_dibsec.1"
             ]
         },
         {
-            "selector": "a[href^='https://dibsec.net/about']",
+            "selector": "a[href='https://dibsec.net/about']",
             "text": [
                 "mouseover.a_href_about.1"
             ]
