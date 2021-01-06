@@ -17,24 +17,6 @@
             ]
         },
         {
-            "selector": "#waifu-tool .fa-comment",
-            "text": [
-                "mouseover.waifu_tool_fa_comment.1",
-                "mouseover.waifu_tool_fa_comment.2",
-                "mouseover.waifu_tool_fa_comment.3",
-                "mouseover.waifu_tool_fa_comment.4",
-                "mouseover.waifu_tool_fa_comment.5",
-                "mouseover.waifu_tool_fa_comment.6",
-                "mouseover.waifu_tool_fa_comment.7",
-                "mouseover.waifu_tool_fa_comment.8",
-                "mouseover.waifu_tool_fa_comment.9",
-                "mouseover.waifu_tool_fa_comment.10",
-                "mouseover.waifu_tool_fa_comment.11",
-                "mouseover.waifu_tool_fa_comment.12",
-                "mouseover.waifu_tool_fa_comment.13"
-            ]
-        },
-        {
             "selector": "#waifu-tool .fa-paper-plane",
             "text": [
                 "mouseover.waifu_tool_fa_paper_plane.1",
@@ -225,6 +207,12 @@
             "selector": "a[href^='https://dibsec.net']",
             "text": [
                 "mouseover.a_href_dibsec.1"
+            ]
+        },
+        {
+            "selector": "a[href^='https://dibsec.net/about']",
+            "text": [
+                "mouseover.a_href_about.1"
             ]
         },
         {
@@ -501,6 +489,71 @@
                 "click.button_id_back_to_top_btn.1",
                 "click.button_id_back_to_top_btn.2",
                 "click.button_id_back_to_top_btn.3"
+            ]
+        },
+        {
+            "selector": "#waifu-tool .fa-comment",
+            "text": [
+                "click.waifu_tool_fa_comment.1",
+                "click.waifu_tool_fa_comment.2",
+                "click.waifu_tool_fa_comment.3",
+                "click.waifu_tool_fa_comment.4",
+                "click.waifu_tool_fa_comment.5",
+                "click.waifu_tool_fa_comment.6",
+                "click.waifu_tool_fa_comment.7",
+                "click.waifu_tool_fa_comment.8",
+                "click.waifu_tool_fa_comment.9",
+                "click.waifu_tool_fa_comment.10",
+                "click.waifu_tool_fa_comment.11",
+                "click.waifu_tool_fa_comment.12",
+                "click.waifu_tool_fa_comment.13",
+                "click.waifu_tool_fa_comment.14",
+                "click.waifu_tool_fa_comment.15",
+                "click.waifu_tool_fa_comment.16",
+                "click.waifu_tool_fa_comment.17",
+                "click.waifu_tool_fa_comment.18",
+                "click.waifu_tool_fa_comment.19",
+                "click.waifu_tool_fa_comment.20",
+                "click.waifu_tool_fa_comment.21",
+                "click.waifu_tool_fa_comment.22",
+                "click.waifu_tool_fa_comment.23",
+                "click.waifu_tool_fa_comment.25",
+                "click.waifu_tool_fa_comment.26",
+                "click.waifu_tool_fa_comment.27",
+                "click.waifu_tool_fa_comment.28",
+                "click.waifu_tool_fa_comment.29",
+                "click.waifu_tool_fa_comment.30",
+                "click.waifu_tool_fa_comment.31",
+                "click.waifu_tool_fa_comment.32",
+                "click.waifu_tool_fa_comment.33",
+                "click.waifu_tool_fa_comment.34",
+                "click.waifu_tool_fa_comment.35",
+                "click.waifu_tool_fa_comment.36",
+                "click.waifu_tool_fa_comment.37",
+                "click.waifu_tool_fa_comment.38",
+                "click.waifu_tool_fa_comment.39",
+                "click.waifu_tool_fa_comment.40",
+                "click.waifu_tool_fa_comment.41",
+                "click.waifu_tool_fa_comment.42",
+                "click.waifu_tool_fa_comment.43",
+                "click.waifu_tool_fa_comment.44",
+                "click.waifu_tool_fa_comment.45",
+                "click.waifu_tool_fa_comment.46",
+                "click.waifu_tool_fa_comment.47",
+                "click.waifu_tool_fa_comment.48",
+                "click.waifu_tool_fa_comment.49",
+                "click.waifu_tool_fa_comment.50",
+                "click.waifu_tool_fa_comment.51",
+                "click.waifu_tool_fa_comment.52",
+                "click.waifu_tool_fa_comment.53",
+                "click.waifu_tool_fa_comment.54",
+                "click.waifu_tool_fa_comment.55",
+                "click.waifu_tool_fa_comment.56",
+                "click.waifu_tool_fa_comment.57",
+                "click.waifu_tool_fa_comment.58",
+                "click.waifu_tool_fa_comment.59",
+                "click.waifu_tool_fa_comment.60"
+
             ]
         }
     ],

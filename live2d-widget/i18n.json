@@ -14,24 +14,6 @@
                 "10": "<p>Really~~?</p>",
                 "11": "<p>Pervert</p>"
             },
-            
-            "waifu_tool_fa_comment": {
-                "1": "<p>Guess what I'm going to say?</p>",
-                "2": "<p>How are you today? Please, be careful.</p>",
-                "3": "<p>Those who make great things in ancient times are not only talented in the world, but also have the will to persevere.</p>",
-                "4": "<p>Master, how can I serve you?</p>",
-                "5": "<p>Make time for civilization, for civilization won't make time.</p>",
-                "6": "<p>To know your Enemy, you must become your Enemy.</p>",
-                "7": "<p>Your loved one is thinking about you, give time to your happiness.</p>",
-                "8": "<p>Do not give up, you can do it! I believe in you!</p>",
-                "9": "<p>Many people would rather deny the fact, than face the truth.</p>",
-                "10": "<p>The mountains are filled with soil, and the sea is filled with water.</p>",
-                "11": "<p>Love is like holding a torch against the wind, there is always the risk of burning your hands.</p>",
-                "12": "<p>Innocence and pure light, the sun breaks the darkness, it can contain disasters, wind, fire, and illuminate the world.</p>",
-                "13": "<p>Maybe we have not grown up, but the world has become smaller.</p>"
-
-
-            },
             "waifu_tool_fa_paper_plane": {
                 "1": "<p>Hey! Let's play paper plane war!</p>",
                 "2": "<p>You can play but don't shoot me!</p>",
@@ -56,7 +38,7 @@
                 "3": "<p>Keep smiling~</p>"
             },
             "waifu_tool_fa_info_circle": {
-                "1": "<p>Want to know more about me? </p>",
+                "1": "<p>Want to know more about this blog? </p>",
                 "2": "<p>You are not a stalker, right ~~? </p>",
                 "3": "<p>What do you want to know more about me? </p>"
             },
@@ -154,6 +136,9 @@
             },
             "a_href_dibsec": {
                 "1": "<p>Yay, we're going home!</p>"
+            },
+            "a_href_about": {
+                "1": "<p>Click to see the about page!</p>"
             },
             "post_title_link": {
                 "1": "<p>Want to read <span>{text}</span> this article?</p>"
@@ -313,6 +298,69 @@
             "6": "<p>Did you know that dark mode makes it easier to stay focused on your work and is less strain on your eyes?</p>",
             "7": "<p>♫ Hello darkness my old friend, I've come to talk with you again.. ♫</p>",
             "8": "<p>Step 1: Dark mode <br> Step 2: Open a new tab <br> Step 3: go to p..hub -- programminghub.io"
+            },
+            "waifu_tool_fa_comment": {
+                "1": "<p>If you know the enemy and know yourself, you need not fear the result of a hundred battles.</p>",
+                "2": "<p>How are you today? Please, be careful.</p>",
+                "3": "<p>Those who make great things in ancient times are not only talented in the world, but also have the will to persevere.</p>",
+                "4": "<p>Master, how can I serve you?</p>",
+                "5": "<p>Make time for civilization, for civilization won't make time.</p>",
+                "6": "<p>To know your Enemy, you must become your Enemy.</p>",
+                "7": "<p>Your loved one is thinking about you, give time to your happiness.</p>",
+                "8": "<p>Do not give up, you can do it! I believe in you!</p>",
+                "9": "<p>Many people would rather deny the fact, than face the truth.</p>",
+                "10": "<p>The quieter you become, the more you are able to hear.</p>",
+                "11": "<p>Love is like holding a torch against the wind, there is always the risk of burning your hands.</p>",
+                "12": "<p>Innocence and pure light, the sun breaks the darkness, it can contain disasters, wind, fire, and illuminate the world.</p>",
+                "13": "<p>Maybe we have not grown up, but the world has become smaller.</p>",
+                "14": "<p>Master Daniel thinks a lot, but don’t say much.</p>",
+                "15": "<p>In the end, we will remember not the words of our enemies, but the silence of our friends</p>",
+                "16": "<p>A good rule of thumb is that any environment that consistently leaves you feeling bad about who you are is the wrong environment.</p>",
+                "17": "<p>I am a minimalist. I like saying the most with the least.</p>",
+                "18": "<p>The highest form of love is to be the protector of another person’s solitude</p>",
+                "19": "<p>Silence is beautiful, not awkward. The human tendency to be afraid of something beautiful is awkward.</p>",
+                "20": "<p>The secret to life is to put yourself in the right lighting. For some it’s a Broadway spotlight, for others, a lamplit desk.</p>",
+                "21": "<p>A wise man once said nothing.</p>",
+                "22": "<p>You may think I’m small, but I have a universe inside my mind</p>",
+                "23": "<p>Your visions will become clear only when you can look into your own heart. Who looks outside, dreams; who looks inside, awakes</p>",
+                "24": "<p>I really like to stay in my nest and not move. I travel in my mind, and that’s a rigorous state of journeying for me.</p>",
+                "25": "<p>I wish, as well as everybody else, to be perfectly happy; but like everybody else, it must be in my own way.</p>",
+                "26": "<p>Lighthouses don’t go running all over an island looking for boats to save; they just stand there shining</p>",
+                "27": "<p>People inspire you, or they drain you — pick them wisely</p>",
+                "28": "<p>Success is not final, failure is not fatal: it is the courage to continue that counts.</p>",
+                "29": "<p>Never bend your head. Always hold it high. Look the world straight in the eye.</p>",
+                "30": "<p>I can't change the direction of the wind, but I can adjust my sails to always reach my destination.</p>",
+                "31": "<p>All that we are is the result of what we have thought.</p>",
+                "32": "<p>Our virtues and our failings are inseparable, like force and matter. When they separate, man is no more.</p>",
+                "33": "<p>My brain is only a receiver, in the Universe there is a core from which we obtain knowledge, strength and inspiration.</p>",
+                "34": "<p>Life is and will ever remain an equation incapable of solution, but it contains certain known factors.</p>",
+                "35": "<p>If you only knew the magnificence of the 3, 6 and 9, then you would have the key to the universe.</p>",
+                "36": "<p>Most persons are so absorbed in the contemplation of the outside world that they are wholly oblivious to what is passing on within themselves.</p>",
+                "37": "<p>Concentrate all your thoughts upon the work at hand. The sun’s rays do not burn until brought to a focus.</p>",
+                "38": "<p>Be alone, that is the secret of invention; be alone, that is when ideas are born.</p>",
+                "39": "<p>If you want to find the secrets of the universe, think in terms of energy, frequency and vibration.</p>",
+                "40": "<p>The gift of mental power comes from God, Divine Being, and if we concentrate our minds on that truth, we become in tune with this great power.</p>",
+                "41": "<p>The desire that guides me in all I do is the desire to harness the forces of nature to the service of mankind.",
+                "42": "<p>Anti-social behavior is a trait of intelligence in a world full of conformists.</p>",
+                "43": "<p>Perhaps I failed, but I did my best, These masters of mine may do the rest.</p>",
+                "44": "<p>Our entire biological system, the brain, and the Earth itself, work on the same frequencies.</p>",
+                "45": "<p>The opinion of the world does not affect me. I have placed as the real values in my life what follows when I am dead.</p>",
+                "46": "<p>Though free to think and act, we are held together, like the stars in the firmament, with ties inseparable. These ties cannot be seen, but we can feel them.</p>",
+                "47": "<p>The only difference between me and you is that I don’t need money to matter.</p>",
+                "48": "<p>True happiness is not found in money, happiness lies in divine consciousness.</p>",
+                "49": "<p>We think having more money and buying more stuff will make us more happy, but it doesn't. You know why a billionaire has 100 Ferraris? Because 99 weren't enough.</p>",
+                "50": "<p>In the modern city life, if you don't have money , you simply don't have life.</p>",
+                "51": "<p>One who chases money throughout his life will chase for his life after death</p>",
+                "52": "<p>The pursuit of money and power is ultimately an empty one. That's why we see so many billionaires unburdening themselves of their wealth to downsize to a more frugal life.</p>",
+                "53": "<p>Everyone is poor in one way or another, so there is no need to worry of where you belong, we are all rich and poor at the same time.</p>",
+                "54": "<p>Wealth is all misery and sickness to the brain, try not to put yourself deep in it, it shall erase your humanity feelings.</p>",
+                "55": "<p>What we think determines what happens to us, so if we want to change our lives, we need to stretch our minds</p>",
+                "56": "<p>If you don't design your own life plan, chances are you'll fall into someone else's plan. And guess what they have planned for you? Not much</p>",
+                "57": "<p>Each life is made up of mistakes and learning, waiting and growing, practicing patience and being persistent.</p>",
+                "58": "<p>Creativity is intelligence having fun.</p>",
+                "59": "<p>If the plan doesn’t work, change the plan, but never the goal.</p>",
+                "60": "<p>If you want to live a happy life, tie it to a goal, not to people or objects.</p>"
+
             }
         },
         "seasons": {
