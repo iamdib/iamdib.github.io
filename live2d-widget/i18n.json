@@ -426,7 +426,7 @@
             "3": "<p>Hello! Welcome from 360 Search<br>You are searching <span>「%{data}」</span>. Did you find it?</p>",
             "4": "<p>Hello! Friends from Google Search<br>You are searching <span>「${data}」</span>. Did you find it?</p>",
             "5": "<p>Hello from <span>「%{data}」</span>. Welcome!",
-            "6": "<p>Welcome to read<span>「%{data}」</span>"
+            "6": "<p>Uh oh! You're lost. Let's go <span><a href='https://dibsec.net '>home</a></span>. Maybe this page moved? Got deleted? Is hiding out in quarantine? Never existed in the first place?</p>"
         },
         "hikoto": {
             "1": "<p>This sentence come from <span>「%{source}」</span>，by <span>%{author}</span> from hitokoto.cn.</p>"
