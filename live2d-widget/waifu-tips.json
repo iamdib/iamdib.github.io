@@ -484,7 +484,7 @@
             ]
         },
         {
-            "selector": "button[id^='back-to-top-btn'",
+            "selector": "i.fas.fa-angle-double-up",
             "text": [
                 "click.button_id_back_to_top_btn.1",
                 "click.button_id_back_to_top_btn.2",

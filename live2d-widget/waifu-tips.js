@@ -123,10 +123,16 @@ function loadWidget(config) {
 			else if (domain === "google") text = {i18n: "welcome.4", data: document.title.split(" - ")[0]};
 			else text = {i18n: "welcome.4", data: referrer.hostname};
 			showMessage(text, 4000, 8);
-		} 
-		else {
+		} else if (location.pathname === "/oscp/") {
+			text = {i18n: "welcome.7", data: document.title.split(" - ")[0]};
+			showMessage(text, 8000, 8);
+		} else if (document.title === "404 - Page Not Found") {
 			text = {i18n: "welcome.6", data: document.title.split(" - ")[0]};
-			showMessage(text, 600000, 10);
+			showMessage(text, 600000, 10)
+		}
+		else {
+			text = {i18n: "welcome.1", data: document.title.split(" - ")[0]};
+			showMessage(text, 4000, 8);
 		}
 	})();
 
@@ -287,7 +293,7 @@ function initWidget(config, apiPath) {
 		};
 	}
 	document.body.insertAdjacentHTML("beforeend", `<div id="waifu-toggle">
-			<span>Signboard girl</span>
+			<span>My assistants</span>
 		</div>`);
 	const toggle = document.getElementById("waifu-toggle");
 	toggle.addEventListener("click", () => {
