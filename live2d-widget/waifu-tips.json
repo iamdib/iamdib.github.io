@@ -190,13 +190,6 @@
             ]
         },
         {
-            "selector": "pre",
-            "text": [
-                "mouseover.pre.1",
-                "mouseover.pre.2"
-            ]
-        },
-        {
             "selector": "a[href^='mailto']",
             "text": [
                 "mouseover.a_href_mail_to.1",
