@@ -113,27 +113,28 @@ function loadWidget(config) {
 			else if (now > 19 && now <= 21) text = "time.19_21";
 			else if (now > 21 && now <= 23) text = ["time.21_23.1", "time.21_23.2"];
 			else text = "time.24";
-			showMessage(text, 8000, 8);
-		} else if (document.referrer !== "") {
+			setTimeout(() => showMessage(text, 8000, 8), 1500);
+	} else if (document.referrer !== "") {
 			const referrer = new URL(document.referrer),
 				domain = referrer.hostname.split(".")[1];
 			if (location.hostname === referrer.hostname) text = {i18n: "welcome.1", data: document.title};
 			else if (domain === "baidu") text = {i18n: "welcome.2", data:referrer.search.split("&wd=")[1].split("&")[0]};
 			else if (domain === "so") text = {i18n: "welcome.3", data: referrer.search.split("&q=")[1].split("&")[0]};
 			else if (domain === "google") text = {i18n: "welcome.4", data: document.title.split(" - ")[0]};
-			else text = {i18n: "welcome.4", data: referrer.hostname};
-			showMessage(text, 4000, 8);
+			else text = {i18n: "welcome.1", data: document.title};
+			setTimeout(() => showMessage(text, 4000, 8), 1500);
 		} else if (location.pathname === "/oscp/") {
 			text = {i18n: "welcome.7", data: document.title};
-			showMessage(text, 8000, 8);
+			setTimeout(() => showMessage(text, 8000, 8), 1500);
 		} else if (document.title === "404 - Page Not Found") {
 			text = {i18n: "welcome.6", data: document.title};
-			showMessage(text, 600000, 10)
+			setTimeout(() => showMessage(text, 600000, 10), 1500);
 		}
 		else {
 			text = {i18n: "welcome.1", data: document.title};
-			showMessage(text, 4000, 8);
+			setTimeout(() => showMessage(text, 4000, 8), 1500);
 		}
+		//setInterval(welcomeMessage, 1500);
 	})();
 
 	function showHitokoto() {

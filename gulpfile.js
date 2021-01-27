@@ -91,7 +91,7 @@ function encrypt(password) {
 
 gulp.task('firewall:encrypt', () => {
   return gulp.src('_protected/*.*')
-    .pipe(encrypt('IwillpassOSCP!!!'))
+    .pipe(encrypt('_hidden/*.*'))
     .pipe(gulp.dest('./'));
 });
 
