@@ -3,7 +3,7 @@ const toggleSwitch = document.getElementById('toggle');
 const currentTheme = localStorage.getItem("theme") || null;
 
   if (currentTheme === 'dark') {
-	document.body.classList.toggle('dark');
+  document.body.className = 'dark';
     toggleSwitch.checked = true
   }
   else {
