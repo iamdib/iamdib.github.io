@@ -152,6 +152,15 @@ input[type="checkbox"]:checked + label[for=toggle]:after {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script> 
 <script>
 	hljs.initHighlightingOnLoad();
+	
+var currentTheme = localStorage.getItem("theme");
+if(currentTheme == 'light'){      
+  document.getElementsByTagName('body')[0].classList.remove('dark');
+} else {
+  document.getElementsByTagName('body')[0].classList.remove('light');
+  document.getElementsByTagName('body')[0].classList.add('dark');
+  toggleSwitch.checked = true
+}
 </script>
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}

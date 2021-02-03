@@ -1,4 +1,4 @@
-var toggleSwitch = document.getElementById('toggle'); 
+const toggleSwitch = document.getElementById('toggle'); 
 
 var currentTheme = localStorage.getItem("theme");
 if(currentTheme == 'light'){      
