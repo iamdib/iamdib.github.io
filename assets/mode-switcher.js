@@ -6,16 +6,15 @@ if(currentTheme == 'dark'){
   toggleSwitch.checked = true
 } else {
   document.getElementsByTagName('body')[0].classList.remove('dark');
+  document.getElementsByTagName('body')[0].classList.add('light');
 }
 
   toggleSwitch.addEventListener("change", e => {
     if (e.target.checked) {
-      document.body.classList.toggle('dark');
-      document.body.className = 'dark';
+      document.getElementsByTagName('body')[0].classList.add('dark');
       localStorage.setItem("theme","dark");
     } else {
-      document.body.classList.toggle('light');
-      document.body.className = 'light';
+      document.getElementsByTagName('body')[0].classList.remove('dark');
       localStorage.setItem("theme","light");
     }
   });
