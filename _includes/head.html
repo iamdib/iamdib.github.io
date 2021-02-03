@@ -16,9 +16,7 @@
   <link rel="shortcut icon" type="image/x-icon" href="/{{ site.favicon }}" />
   <link rel="stylesheet" href="{{ site.url }}/assets/css/agate.css" >
   <script src="{{ site.url }}/live2d-widget/autoload.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 <style>
-[x-cloak] { display: none; }
 *,*:after, *:before {
 	box-sizing: border-box;
 }
@@ -154,7 +152,10 @@ input[type="checkbox"]:checked + label[for=toggle]:after {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script> 
 <script>
 	hljs.initHighlightingOnLoad();
+	  // Render blocking JS:
+	  if (localStorage.theme) document.documentElement.setAttribute("data-theme", localStorage.theme);
 </script>
+
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
   {%- include google-analytics.html -%}
