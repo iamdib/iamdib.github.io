@@ -3,11 +3,11 @@ const toggleSwitch = document.getElementById('toggle');
 const currentTheme = localStorage.getItem("theme") || null;
 
   if (currentTheme === 'dark') {
-  document.body.className = 'dark';
+    document.body.className = 'dark';
     toggleSwitch.checked = true
   }
   else {
-    document.body.classList.toggle('light');
+    document.body.className = 'light';
   }
 
   toggleSwitch.addEventListener("change", e => {
