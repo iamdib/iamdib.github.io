@@ -1,12 +1,11 @@
 const toggleSwitch = document.getElementById('toggle'); 
 
 var currentTheme = localStorage.getItem("theme");
-if(currentTheme == 'light'){      
-  document.getElementsByTagName('body')[0].classList.remove('dark');
-} else {
-  document.getElementsByTagName('body')[0].classList.remove('light');
+if(currentTheme == 'dark'){      
   document.getElementsByTagName('body')[0].classList.add('dark');
   toggleSwitch.checked = true
+} else {
+  document.getElementsByTagName('body')[0].classList.remove('dark');
 }
 
   toggleSwitch.addEventListener("change", e => {
