@@ -152,9 +152,7 @@ input[type="checkbox"]:checked + label[for=toggle]:after {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script> 
 <script>
 	hljs.initHighlightingOnLoad();
-	var preloadedScript = document.createElement("script");
-	preloadedScript.src = "{{ site.url }}/assets/mode-switcher.js";
-	document.body.appendChild(preloadedScript);
+	localStorage.getItem("theme");
 </script>
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
