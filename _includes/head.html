@@ -151,7 +151,7 @@ input[type="checkbox"]:checked + label[for=toggle]:after {
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script> 
 <script>
-	hljs.initHighlightingOnLoad();var toggleSwitch=document.getElementById("toggle"),currentTheme=localStorage.getItem("theme");"dark"===currentTheme?(document.body.classList.add("dark"),toggleSwitch.checked=!0):document.body.classList.remove("dark"),toggleSwitch.addEventListener("change",e=>{e.target.checked?(document.body.classList.toggle("dark"),document.body.className="dark",localStorage.setItem("theme","dark")):(document.body.classList.toggle("light"),document.body.className="light",localStorage.setItem("theme","light"))});
+	hljs.initHighlightingOnLoad();
 </script>
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
