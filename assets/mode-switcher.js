@@ -8,6 +8,7 @@ if(currentTheme == 'light'){
   document.getElementsByTagName('body')[0].classList.add('dark');
   toggleSwitch.checked = true
 }
+
   toggleSwitch.addEventListener("change", e => {
     if (e.target.checked) {
       document.body.classList.toggle('dark');
