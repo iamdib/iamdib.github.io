@@ -288,7 +288,7 @@ function Asteroids() {
 	};
 
 	function setScore() {
-		that.points.innerHTML = window.ASTEROIDS.enemiesKilled * 10;
+		that.points.innerHTML = window.ASTEROIDS.enemiesKilled * 100;
 	};
 
 	function hasOnlyTextualChildren(element) {
@@ -342,6 +342,9 @@ function Asteroids() {
 		message.style.color = "red";
 		message.innerHTML = "Press Esc to Quit";
 		document.body.appendChild(message);
+		if (that.points.innerHTML >= 9000) {
+			message.innerHTML = "Press Esc to Quit" + "<br />" + "Last Hee heent: MJ";
+			};
 		const x = e.pageX || (e.clientX + document.documentElement.scrollLeft);
 		const y = e.pageY || (e.clientY + document.documentElement.scrollTop);
 		message.style.left = x - message.offsetWidth / 2 + "px";

@@ -14,6 +14,9 @@
                 "10": "<p>Really~~?</p>",
                 "11": "<p>Pervert</p>"
             },
+            "waifu_tool_fa_question": {
+                "1": "<p>Did you know there's a secret puzzle hidden on the homepage? It's up for you to find out. Goodluck!</p>"
+            },
             "waifu_tool_fa_paper_plane": {
                 "1": "<p>Hey! Let's play paper plane war!</p>",
                 "2": "<p>You can play but don't shoot me!</p>",
@@ -282,13 +285,11 @@
                 "6": "<p>Darkness cannot drive out darkness; only light can do that</p>",
                 "7": "<p>Woohoo! Light mode on!</p>"
             },
-            
             "button_id_back_to_top_btn": {
                 "1": "<p>Up, up and away!</p>",
                 "2": "<p>We're back on top, baby!</p>",
                 "3": "<p>Back to the original starting point~</p>"
             },
-            
             "light_label_for_toggle": {
             "1": "<p>Ahh yes, darkness, the absence of light</p>",
             "2": "<p>Woohoo! Dark mode on! </p>",
@@ -299,6 +300,12 @@
             "7": "<p>♫ Hello darkness my old friend, I've come to talk with you again.. ♫</p>",
             "8": "<p>Step 1: Dark mode <br> Step 2: Open a new tab <br> Step 3: go to p..hub -- programminghub.io"
             },
+            "waifu_tool_fa_question": {
+            "1": "<p>Hint 1: Twinkle, twinkle little dot. How I wonder where you are? Up above the page so high, like a diamond in the sky.</p>"
+            },
+            "waifu_tool_fa_paper_plane": {
+                "1": "<p>Yay, let's play! Hi 5! Can you try to beat the score of Goku? You'll need to wear Vegeta's \"scouter\" to know his score.</p>"
+                },
             "waifu_tool_fa_comment": {
                 "1": "<p>If you know the enemy and know yourself, you need not fear the result of a hundred battles.</p>",
                 "2": "<p>How are you today? Please, be careful.</p>",

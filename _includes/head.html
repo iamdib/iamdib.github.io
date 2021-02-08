@@ -2,6 +2,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex" />
   <meta name="robots" content="nofollow" />
   <meta name="robots" content="noarchive" />
   {%- seo title=false -%}
@@ -107,6 +108,7 @@ ul {
 .dark span a {
 	color: #1bff1b;
 }
+
 label[for=toggle] {
 	position: relative;
 	display: inline-block;
@@ -117,6 +119,16 @@ label[for=toggle] {
 	overflow: hidden;
 	cursor: pointer;
 	margin-bottom: 15px;
+}
+
+.circle {
+  position: absolute;
+  background: #0000;
+  border: 0.01em solid #0F1C3F;
+  border-radius: 50%;
+  height: 0.01em;
+  width: 0.01em;
+  left: 0px;
 }
 
 label[for=toggle]:before, label[for=toggle]:after {
@@ -130,21 +142,26 @@ label[for=toggle]:before, label[for=toggle]:after {
 	left: 7px;
 	transition: 0.5s ease;
 }
+
 label[for=toggle]:before {
 	background-color: #ffa41b;
 }
+
 label[for=toggle]:after {
 	background-color: #111;
 	left: -59px;
 	transform: scale(0.00001);
 }
+
 input[type="checkbox"] {
 	display: none;
 }
+
 input[type="checkbox"]:checked + label[for=toggle]:before {
 	background-color: #fdfdfd;
 	transform: translateX(31px);
 }
+
 input[type="checkbox"]:checked + label[for=toggle]:after {
 	transform: translateX(89px) scale(1);
 }
@@ -154,7 +171,7 @@ input[type="checkbox"]:checked + label[for=toggle]:after {
 <script>
 	hljs.initHighlightingOnLoad();
 </script>
-
+<input class="circle" button onclick="location.href='{{ site.url }}/secret-puzzle'" type="button"></input>
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
   {%- include google-analytics.html -%}

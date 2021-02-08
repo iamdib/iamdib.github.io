@@ -28,6 +28,7 @@ function loadWidget(config) {
 				<span class="fa fa-lg fa-camera-retro"></span>
 				<span class="fa fa-lg fa-info-circle"></span>
 				<span class="fa fa-lg fa-times"></span>
+				<span class="fas fa-question"></span>
 			</div>
 		</div>`);
 	// https://stackoverflow.com/questions/24148403/trigger-css-transition-on-appended-element
@@ -124,6 +125,9 @@ function loadWidget(config) {
 			else text = {i18n: "welcome.1", data: document.title};
 			setTimeout(() => showMessage(text, 4000, 8), 2000);
 		} else if (location.pathname === "/oscp/") {
+			text = {i18n: "welcome.7", data: document.title};
+			setTimeout(() => showMessage(text, 8000, 8), 2000);
+		} else if (location.pathname === "/#") {
 			text = {i18n: "welcome.7", data: document.title};
 			setTimeout(() => showMessage(text, 8000, 8), 2000);
 		} else if (document.title === "404 - Page Not Found") {

@@ -17,6 +17,12 @@
             ]
         },
         {
+            "selector": "#waifu-tool .fa-question",
+            "text": [
+                "mouseover.waifu_tool_fa_question.1"
+            ]
+        },
+        {
             "selector": "#waifu-tool .fa-paper-plane",
             "text": [
                 "mouseover.waifu_tool_fa_paper_plane.1",
@@ -474,6 +480,18 @@
                 "click.light_label_for_toggle.6",
                 "click.light_label_for_toggle.7",
                 "click.light_label_for_toggle.8"
+            ]
+        },
+        {
+            "selector": "#waifu-tool .fa-question",
+            "text": [
+                "click.waifu_tool_fa_question.1"
+            ]
+        },
+        {
+            "selector": "#waifu-tool .fa-paper-plane",
+            "text": [
+                "click.waifu_tool_fa_paper_plane.1"
             ]
         },
         {
