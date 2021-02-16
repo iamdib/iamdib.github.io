@@ -1,6 +1,6 @@
 const toggleSwitch = document.getElementById('toggle'); 
 
-const currentTheme = localStorage.getItem("theme") || null;
+const currentTheme = localStorage.getItem("theme");
 
   if (currentTheme === 'dark') {
     document.body.classList.toggle('dark');
