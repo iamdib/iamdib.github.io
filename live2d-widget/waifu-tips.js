@@ -73,9 +73,14 @@ function loadWidget(config) {
 		document.querySelector("#waifu-tool .fa-user-circle").addEventListener("click", loadOtherModel);
 		document.querySelector("#waifu-tool .fa-street-view").addEventListener("click", loadRandModel);
 		document.querySelector("#waifu-tool .fa-camera-retro").addEventListener("click", () => {
-			showMessage("general.camera.1", 4000, 9);
-			Live2D.captureName = "photo.png";
-			Live2D.captureFrame = true;
+			document.onkeyup = function (e) {
+				var evt = window.event || e;
+				if (evt.keyCode == 67 && evt.altKey) {
+					showMessage("general.camera.1", 2000, 9);
+					Live2D.captureName = "photo.png";
+					Live2D.captureFrame = true;
+					}
+				}
 		});
 		document.querySelector("#waifu-tool .fa-info-circle").addEventListener("click", () => {
 			open("https://dibsec.net/about");

@@ -343,7 +343,7 @@ function Asteroids() {
 		message.innerHTML = "Press Esc to Quit";
 		document.body.appendChild(message);
 		if (that.points.innerHTML >= 9000) {
-			message.innerHTML = "Press Esc to Quit" + "<br />" + "Last Hee heent: MJ";
+			message.innerHTML = "Press Esc to Quit" + "<br />" + "Hee heent U+0036: MJ";
 			};
 		const x = e.pageX || (e.clientX + document.documentElement.scrollLeft);
 		const y = e.pageY || (e.clientY + document.documentElement.scrollTop);

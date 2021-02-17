@@ -15,7 +15,7 @@
                 "11": "<p>Pervert</p>"
             },
             "waifu_tool_fa_question": {
-                "1": "<p>Did you know there's a secret puzzle hidden on the homepage? It's up for you to find out. Goodluck!</p>"
+                "1": "<p>Did you know there's a secret puzzle hidden on this website? It's up for you to find out. Goodluck!</p>"
             },
             "waifu_tool_fa_paper_plane": {
                 "1": "<p>Hey! Let's play paper plane war!</p>",
@@ -291,21 +291,24 @@
                 "3": "<p>Back to the original starting point~</p>"
             },
             "light_label_for_toggle": {
-            "1": "<p>Ahh yes, darkness, the absence of light</p>",
-            "2": "<p>Woohoo! Dark mode on! </p>",
-            "3": "<p>Totoo bang pag may dilim, may lagim?</p>",
-            "4": "<p>Darkness reminds me of a masochist crusader but a very kind, noble and beautiful young woman...</p>",
-            "5": "<p>I guess you're the type of person who also loves incognito mode too right?</p>",
-            "6": "<p>Did you know that dark mode makes it easier to stay focused on your work and is less strain on your eyes?</p>",
-            "7": "<p>♫ Hello darkness my old friend, I've come to talk with you again.. ♫</p>",
-            "8": "<p>Step 1: Dark mode <br> Step 2: Open a new tab <br> Step 3: go to p..hub -- programminghub.io"
+                "1": "<p>Ahh yes, darkness, the absence of light</p>",
+                "2": "<p>Woohoo! Dark mode on! </p>",
+                "3": "<p>Totoo bang pag may dilim, may lagim?</p>",
+                "4": "<p>Darkness reminds me of a masochist crusader but a very kind, noble and beautiful young woman...</p>",
+                "5": "<p>I guess you're the type of person who also loves incognito mode too right?</p>",
+                "6": "<p>Did you know that dark mode makes it easier to stay focused on your work and is less strain on your eyes?</p>",
+                "7": "<p>♫ Hello darkness my old friend, I've come to talk with you again.. ♫</p>",
+                "8": "<p>Step 1: Dark mode <br> Step 2: Open a new tab <br> Step 3: go to p..hub -- programminghub.io"
             },
             "waifu_tool_fa_question": {
             "1": "<p>Hint 1: Twinkle, twinkle little dot. How I wonder where you are? Up above the page so high, like a diamond in the sky.</p>"
             },
+            "waifu_tool_fa_camera_retro": {
+                "1": "<p>Place your mouse on me so I'll look in front of you then press alt+c</p>"
+            },
             "waifu_tool_fa_paper_plane": {
                 "1": "<p>High five! alright, let's play!<br>is it true? you can beat Goku's score?<br>nope there's no scoreboard<br>try to wear a \"scouter\" or ask Vegeta</p>"
-                },
+            },
             "waifu_tool_fa_comment": {
                 "1": "<p>If you know the enemy and know yourself, you need not fear the result of a hundred battles.</p>",
                 "2": "<p>How are you today? Please, be careful.</p>",
