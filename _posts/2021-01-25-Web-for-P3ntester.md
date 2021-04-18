@@ -12,7 +12,7 @@ tags: vulnhub
 ![][1]
 ![][2]
 
-We're gonna practice one of the oldies but goodie VMs on Vulnhub, it's P3ntester Lab: Web for P3ntesters. To download this VM, click [here](https://www.vulnhub.com/entry/pentester-lab-web-for-pentester,71/). First of all we will do the XSS exercises.
+We're gonna practice one of the oldies but goodie VMs on Vulnhub, it's P3ntester Lab: Web for P3ntesters. To download this VM, click [here](https://www.vulnhub.com/entry/pentester-lab-web-for-pentester,71/). Let's do all the exercises.
 
 ### 0x00 Get IP address
 
